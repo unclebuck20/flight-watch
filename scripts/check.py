@@ -273,12 +273,13 @@ def main():
                     continue
                 try:
                     gp = parse(search(trip, d, r, key))
-                    gprice, _ = tracked_price(trip, gp)
-                    rows.append({"offset": off, "depart": d, "return": r, "price": gprice})
+                    gprice, gbasis = tracked_price(trip, gp)
+                    rows.append({"offset": off, "depart": d, "return": r, "price": gprice,
+                                 "basis": gbasis})
                 except Exception as e:
                     warn(f"{trip['name']}: grid {d} failed ({e})")
             rows.append({"offset": 0, "depart": trip["depart"], "return": trip.get("return"),
-                         "price": price})
+                         "price": price, "basis": basis})
             rec["grid"] = {"checked": today, "rows": sorted(rows, key=lambda x: x["offset"])}
 
         if verdict == "BUY" and rec.get("last_verdict") != "BUY":

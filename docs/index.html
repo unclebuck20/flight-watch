@@ -178,7 +178,7 @@ function gridTable(t) {
     const two = t.basis === "Alaska" ? "" : " ×2";
     return `<tr class="${r.offset === 0 ? "sel" : ""}"><td>${r.offset === 0 ? "Your dates" : (r.offset > 0 ? "+" : "") + r.offset + "d"}</td>
       <td>${fmtDate(r.depart)}${r.return ? " – " + fmtDate(r.return) : ""}</td>
-      <td class="num">${money(r.price)}</td>
+      <td class="num">${money(r.price)}${r.basis && r.basis !== t.basis ? " <span title='No Alaska nonstop that day; cheapest fare shown'>*</span>" : ""}</td>
       <td class="num ${cls}">${diff == null || r.offset === 0 ? "" : (diff < 0 ? "−" : "+") + money(Math.abs(diff)) + two}</td></tr>`;
   }).join("");
   return `<details><summary>Nearby dates (checked ${fmtDate(t.grid.checked)})</summary><div class="scroll"><table>
