@@ -1,0 +1,24 @@
+name: Add trip
+description: Start watching a flight
+title: "Add trip"
+labels: ["add-trip"]
+body:
+  - type: input
+    attributes: {label: Trip name, placeholder: "Jackson Hole ski trip"}
+  - type: input
+    attributes: {label: From, placeholder: SEA}
+    validations: {required: true}
+  - type: input
+    attributes: {label: To, placeholder: DEN}
+    validations: {required: true}
+  - type: input
+    attributes: {label: Depart date, placeholder: "2026-11-25"}
+    validations: {required: true}
+  - type: input
+    attributes: {label: Return date, description: Leave blank for one-way, placeholder: "2026-11-29"}
+  - type: dropdown
+    attributes: {label: Nonstop only, options: ["Yes", "No"], default: 0}
+  - type: dropdown
+    attributes: {label: Using a companion fare?, options: ["No", "Yes"], default: 0}
+  - type: input
+    attributes: {label: Book by, description: "Optional deadline, e.g. a companion fare's expiry", placeholder: "2026-10-31"}

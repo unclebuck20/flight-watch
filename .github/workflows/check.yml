@@ -1,0 +1,41 @@
+name: Daily price check
+
+on:
+  schedule:
+    - cron: "17 14 * * *"   # ~6-7am Pacific
+  workflow_dispatch:
+    inputs:
+      grid:
+        description: Also refresh the nearby-dates grid
+        type: boolean
+        default: false
+
+concurrency:
+  group: flight-watch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: Check prices
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          TWILIO_SID: ${{ secrets.TWILIO_SID }}
+          TWILIO_TOKEN: ${{ secrets.TWILIO_TOKEN }}
+          TWILIO_FROM: ${{ secrets.TWILIO_FROM }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python scripts/check.py ${{ inputs.grid && '--grid' || '' }}
+      - name: Commit if changed
+        run: |
+          git config user.name "flight-watch-bot"
+          git config user.email "flight-watch-bot@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet || (git commit -m "Price check $(date -u +%F)" && git push)

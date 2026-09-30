@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flight Watch</title>
+<meta name="robots" content="noindex">
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+  --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10);
+  --s1: #2a78d6; --s2: #eb6834; --band: rgba(42,120,214,0.10);
+  --good: #0ca30c; --good-ink: #006300; --good-bg: rgba(12,163,12,0.10);
+  --wait: #b07800; --wait-bg: rgba(250,178,25,0.16);
+  --crit: #d03b3b;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+    --s1: #3987e5; --s2: #d95926; --band: rgba(57,135,229,0.14);
+    --good-ink: #0ca30c; --good-bg: rgba(12,163,12,0.16);
+    --wait: #fab219; --wait-bg: rgba(250,178,25,0.14);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+  --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+  --s1: #3987e5; --s2: #d95926; --band: rgba(57,135,229,0.14);
+  --good-ink: #0ca30c; --good-bg: rgba(12,163,12,0.16);
+  --wait: #fab219; --wait-bg: rgba(250,178,25,0.14);
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--page); color: var(--ink);
+  font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 860px; margin: 0 auto; padding: 20px 16px 48px; }
+header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; margin-bottom: 16px; }
+h1 { font-size: 22px; margin: 0; }
+.meta { color: var(--muted); font-size: 13px; }
+a { color: var(--s1); }
+.btn { display: inline-block; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--ink); text-decoration: none; font-weight: 600; font-size: 14px; }
+.btn.primary { background: var(--s1); border-color: var(--s1); color: #fff; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 18px; margin-bottom: 16px; }
+.card.past { opacity: .6; }
+.top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; }
+.name { font-size: 18px; font-weight: 700; margin: 0; }
+.sub { color: var(--ink-2); font-size: 14px; }
+.tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 6px; }
+.tag { font-size: 12px; padding: 2px 8px; border-radius: 99px; border: 1px solid var(--border); color: var(--ink-2); }
+.verdict { display: flex; gap: 12px; align-items: center; margin: 14px 0; padding: 12px 14px; border-radius: 10px; }
+.verdict.BUY { background: var(--good-bg); }
+.verdict.WAIT, .verdict.PENDING, .verdict[class*="NO"] { background: var(--wait-bg); }
+.v-label { font-weight: 800; font-size: 20px; letter-spacing: .02em; white-space: nowrap; }
+.verdict.BUY .v-label { color: var(--good-ink); }
+.verdict:not(.BUY) .v-label { color: var(--wait); }
+.v-reason { color: var(--ink); font-size: 14px; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin-bottom: 14px; }
+.stat { border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; }
+.stat .k { color: var(--muted); font-size: 12px; }
+.stat .v { font-size: 20px; font-weight: 700; }
+.stat .n { color: var(--ink-2); font-size: 12px; }
+.chart { position: relative; }
+.chart svg { width: 100%; height: 220px; display: block; }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--ink-2); margin: 4px 0 6px; }
+.legend i { display: inline-block; width: 14px; height: 2px; vertical-align: middle; margin-right: 6px; }
+.legend i.band { height: 10px; background: var(--band); }
+.tip { position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 8px; padding: 6px 9px; font-size: 12px; box-shadow: 0 4px 14px rgba(0,0,0,.12); display: none; white-space: nowrap; }
+details { margin-top: 10px; }
+summary { cursor: pointer; color: var(--ink-2); font-size: 14px; font-weight: 600; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 8px; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--grid); }
+th { color: var(--muted); font-weight: 600; }
+td.num, th.num { text-align: right; }
+tr.sel td { font-weight: 700; }
+.cheaper { color: var(--good-ink); }
+.pricier { color: var(--crit); }
+.scroll { overflow-x: auto; }
+.empty { color: var(--ink-2); text-align: center; padding: 40px 16px; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div>
+      <h1>Flight Watch</h1>
+      <div class="meta" id="meta">Loading…</div>
+    </div>
+    <a class="btn primary" id="add" href="#">+ Add trip</a>
+  </header>
+  <div id="trips"></div>
+</main>
+<script>
+const $ = (s, el = document) => el.querySelector(s);
+const money = v => v == null ? "—" : "$" + Math.round(v).toLocaleString();
+const fmtDate = s => s ? new Date(s + "T12:00:00").toLocaleDateString(undefined, {weekday: "short", month: "short", day: "numeric"}) : "";
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const repo = location.hostname.endsWith("github.io")
+  ? `https://github.com/${location.hostname.split(".")[0]}/${location.pathname.split("/")[1]}`
+  : "https://github.com/unclebuck20/flight-watch";
+$("#add").href = `${repo}/issues/new?template=add-trip.yml`;
+
+fetch("data.json?" + Date.now()).then(r => r.json()).then(render).catch(() => {
+  $("#meta").textContent = "No data yet. The first price check hasn't run.";
+});
+
+function render(d) {
+  const built = new Date(d.meta.built);
+  $("#meta").textContent = `Checked ${built.toLocaleString(undefined, {month: "short", day: "numeric", hour: "numeric", minute: "2-digit"})}` +
+    (d.meta.searches_left != null ? ` · ${d.meta.searches_left} searches left this month` : "");
+  const trips = d.trips.filter(t => !t.past).concat(d.trips.filter(t => t.past));
+  if (!trips.length) { $("#trips").innerHTML = `<div class="card empty">No trips yet. Tap “Add trip”.</div>`; return; }
+  $("#trips").innerHTML = trips.map(card).join("");
+  trips.forEach((t, i) => drawChart(t, $(`#chart-${i}`)));
+}
+
+function card(t, i) {
+  const icon = t.verdict === "BUY" ? "✓" : "⏳";
+  const route = `${t.from} → ${t.to}`;
+  const dates = fmtDate(t.depart) + (t.return ? ` – ${fmtDate(t.return)}` : " (one-way)");
+  const tracked = t.basis === "Alaska" ? t.alaska : t.low;
+  const hist = t.history.map(h => h[1]).filter(v => v != null);
+  const lowest = hist.length ? Math.min(...hist) : null;
+  const deadline = t.days_to_deadline != null
+    ? `<div class="stat"><div class="k">Book by</div><div class="v">${t.days_to_deadline}d</div><div class="n">${fmtDate(t.book_by)}</div></div>` : "";
+  return `
+  <section class="card ${t.past ? "past" : ""}">
+    <div class="top">
+      <div>
+        <h2 class="name">${esc(t.name)}</h2>
+        <div class="sub">${route} · ${dates} · ${t.days_to_depart}d away</div>
+        <div class="tags">
+          ${t.nonstop ? `<span class="tag">Nonstop</span>` : `<span class="tag">Any stops</span>`}
+          ${t.companion ? `<span class="tag">Companion fare</span>` : ""}
+          ${t.level ? `<span class="tag">Google: ${esc(t.level)}</span>` : ""}
+        </div>
+      </div>
+    </div>
+    <div class="verdict ${esc(t.verdict)}" role="status">
+      <span class="v-label" aria-hidden="true">${icon}</span>
+      <span class="v-label">${esc(t.verdict)}</span>
+      <span class="v-reason">${esc(t.reason)}</span>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="k">For two of you</div><div class="v">${money(t.cost_two)}</div><div class="n">${esc(t.cost_note || "")}</div></div>
+      <div class="stat"><div class="k">Today, per person</div><div class="v">${money(tracked)}</div><div class="n">${t.basis === "Alaska" ? "Alaska fare" : "Cheapest fare"}${t.basis === "Alaska" && t.low != null && t.low < t.alaska ? ` · cheapest ${money(t.low)}` : ""}</div></div>
+      <div class="stat"><div class="k">Lowest we've seen</div><div class="v">${money(lowest)}</div><div class="n">${hist.length} daily check${hist.length === 1 ? "" : "s"}</div></div>
+      <div class="stat"><div class="k">Typical range</div><div class="v">${t.typical ? money(t.typical[0]) + "–" + money(t.typical[1]).slice(1) : "—"}</div><div class="n">Google, this route</div></div>
+      ${deadline}
+    </div>
+    <div class="legend">
+      <span><i style="background:var(--s1)"></i>Route low (Google, 60 days)</span>
+      <span><i style="background:var(--s2)"></i>${t.basis === "Alaska" ? "Alaska fare" : "Our daily checks"}</span>
+      <span><i class="band"></i>Typical range</span>
+    </div>
+    <div class="chart" id="chart-${i}"><svg role="img" aria-label="Price history for ${esc(t.name)}"></svg><div class="tip"></div></div>
+    ${gridTable(t)}
+    ${optionsTable(t)}
+    ${historyTable(t)}
+    <div class="actions">
+      ${t.url ? `<a class="btn primary" href="${esc(t.url)}" target="_blank" rel="noopener">Open in Google Flights</a>` : ""}
+      ${t.companion ? `<a class="btn" href="https://www.alaskaair.com/" target="_blank" rel="noopener">Book on Alaska</a>` : ""}
+    </div>
+  </section>`;
+}
+
+function gridTable(t) {
+  if (!t.grid || !t.grid.rows.length) return "";
+  const base = t.grid.rows.find(r => r.offset === 0)?.price;
+  const rows = t.grid.rows.map(r => {
+    const diff = r.price != null && base != null ? r.price - base : null;
+    const cls = diff == null || diff === 0 ? "" : diff < 0 ? "cheaper" : "pricier";
+    const two = t.basis === "Alaska" ? "" : " ×2";
+    return `<tr class="${r.offset === 0 ? "sel" : ""}"><td>${r.offset === 0 ? "Your dates" : (r.offset > 0 ? "+" : "") + r.offset + "d"}</td>
+      <td>${fmtDate(r.depart)}${r.return ? " – " + fmtDate(r.return) : ""}</td>
+      <td class="num">${money(r.price)}</td>
+      <td class="num ${cls}">${diff == null || r.offset === 0 ? "" : (diff < 0 ? "−" : "+") + money(Math.abs(diff)) + two}</td></tr>`;
+  }).join("");
+  return `<details><summary>Nearby dates (checked ${fmtDate(t.grid.checked)})</summary><div class="scroll"><table>
+    <thead><tr><th>Shift</th><th>Dates</th><th class="num">Per person</th><th class="num">vs yours</th></tr></thead><tbody>${rows}</tbody></table></div></details>`;
+}
+
+function optionsTable(t) {
+  if (!t.options.length) return "";
+  const time = s => s ? s.split(" ")[1] : "";
+  const rows = t.options.map(o => `<tr><td>${esc(o.airline)}</td><td>${esc(o.flight)}</td>
+    <td>${time(o.depart)} → ${time(o.arrive)}</td><td>${o.stops ? o.stops + " stop" : "Nonstop"}</td><td class="num">${money(o.price)}</td></tr>`).join("");
+  return `<details><summary>Today's flights (round-trip price per person)</summary><div class="scroll"><table>
+    <thead><tr><th>Airline</th><th>Flight</th><th>Outbound</th><th>Stops</th><th class="num">Price</th></tr></thead><tbody>${rows}</tbody></table></div></details>`;
+}
+
+function historyTable(t) {
+  const byDate = {};
+  t.google_history.forEach(([d, v]) => (byDate[d] = byDate[d] || {}).g = v);
+  t.history.forEach(([d, v]) => (byDate[d] = byDate[d] || {}).o = v);
+  const dates = Object.keys(byDate).sort().reverse();
+  if (!dates.length) return "";
+  const rows = dates.map(d => `<tr><td>${fmtDate(d)}</td><td class="num">${money(byDate[d].g)}</td><td class="num">${money(byDate[d].o)}</td></tr>`).join("");
+  return `<details><summary>Price history table</summary><div class="scroll"><table>
+    <thead><tr><th>Date</th><th class="num">Route low</th><th class="num">${t.basis === "Alaska" ? "Alaska fare" : "Our check"}</th></tr></thead><tbody>${rows}</tbody></table></div></details>`;
+}
+
+function drawChart(t, box) {
+  const svg = box.querySelector("svg"), tip = box.querySelector(".tip");
+  const series = [
+    {pts: t.google_history.filter(p => p[1] != null), color: "var(--s1)", name: "Route low"},
+    {pts: t.history.filter(p => p[1] != null), color: "var(--s2)", name: t.basis === "Alaska" ? "Alaska fare" : "Our check"},
+  ];
+  const all = series.flatMap(s => s.pts);
+  const W = box.clientWidth || 600, H = 220, L = 48, R = 12, T = 10, B = 26;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  if (!all.length) { svg.innerHTML = `<text x="${W/2}" y="${H/2}" text-anchor="middle" fill="var(--muted)" font-size="13">No price history yet</text>`; return; }
+  const ts = s => new Date(s + "T12:00:00").getTime();
+  const xs = all.map(p => ts(p[0])), ys = all.map(p => p[1]).concat(t.typical || []);
+  let x0 = Math.min(...xs), x1 = Math.max(...xs); if (x0 === x1) { x0 -= 864e5; x1 += 864e5; }
+  let y0 = Math.min(...ys), y1 = Math.max(...ys); const pad = Math.max((y1 - y0) * 0.12, 10); y0 = Math.max(0, y0 - pad); y1 += pad;
+  const X = v => L + (v - x0) / (x1 - x0) * (W - L - R), Y = v => T + (1 - (v - y0) / (y1 - y0)) * (H - T - B);
+  let g = "";
+  // gridlines + y ticks
+  for (let i = 0; i <= 3; i++) {
+    const v = y0 + (y1 - y0) * i / 3, y = Y(v);
+    g += `<line x1="${L}" x2="${W - R}" y1="${y}" y2="${y}" stroke="var(--grid)" stroke-width="1"/>`;
+    g += `<text x="${L - 6}" y="${y + 4}" text-anchor="end" fill="var(--muted)" font-size="11" style="font-variant-numeric:tabular-nums">$${Math.round(v)}</text>`;
+  }
+  // typical band
+  if (t.typical) g += `<rect x="${L}" width="${W - L - R}" y="${Y(t.typical[1])}" height="${Math.max(Y(t.typical[0]) - Y(t.typical[1]), 1)}" fill="var(--band)"/>`;
+  // x ticks: first, middle, last
+  [x0, (x0 + x1) / 2, x1].forEach((v, i) => {
+    const s = new Date(v).toLocaleDateString(undefined, {month: "short", day: "numeric"});
+    g += `<text x="${X(v)}" y="${H - 6}" text-anchor="${["start", "middle", "end"][i]}" fill="var(--muted)" font-size="11">${s}</text>`;
+  });
+  g += `<line x1="${L}" x2="${W - R}" y1="${H - B}" y2="${H - B}" stroke="var(--axis)"/>`;
+  series.forEach(s => {
+    if (!s.pts.length) return;
+    const d = s.pts.map((p, i) => `${i ? "L" : "M"}${X(ts(p[0])).toFixed(1)},${Y(p[1]).toFixed(1)}`).join("");
+    g += `<path d="${d}" fill="none" stroke="${s.color}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+    const last = s.pts[s.pts.length - 1];
+    g += `<circle cx="${X(ts(last[0]))}" cy="${Y(last[1])}" r="4" fill="${s.color}" stroke="var(--surface)" stroke-width="2"/>`;
+  });
+  g += `<line class="xh" y1="${T}" y2="${H - B}" stroke="var(--axis)" stroke-width="1" visibility="hidden"/>`;
+  g += `<rect x="${L}" y="${T}" width="${W - L - R}" height="${H - T - B}" fill="transparent" class="hit"/>`;
+  svg.innerHTML = g;
+  const dates = [...new Set(all.map(p => p[0]))].sort();
+  const val = (s, d) => s.pts.find(p => p[0] === d)?.[1];
+  const xh = svg.querySelector(".xh");
+  const move = e => {
+    const r = svg.getBoundingClientRect(), px = (e.clientX - r.left) * W / r.width;
+    const d = dates.reduce((a, b) => Math.abs(X(ts(b)) - px) < Math.abs(X(ts(a)) - px) ? b : a);
+    const x = X(ts(d));
+    xh.setAttribute("x1", x); xh.setAttribute("x2", x); xh.setAttribute("visibility", "visible");
+    tip.innerHTML = `<b>${fmtDate(d)}</b><br>` + series.map(s => val(s, d) != null ? `<span style="color:${s.color}">●</span> ${s.name}: ${money(val(s, d))}` : "").filter(Boolean).join("<br>");
+    tip.style.display = "block";
+    const left = x * r.width / W;
+    tip.style.left = Math.min(Math.max(left - tip.offsetWidth / 2, 0), r.width - tip.offsetWidth) + "px";
+    tip.style.top = "0px";
+  };
+  const hit = svg.querySelector(".hit");
+  hit.addEventListener("pointermove", move);
+  hit.addEventListener("pointerdown", move);
+  hit.addEventListener("pointerleave", () => { tip.style.display = "none"; xh.setAttribute("visibility", "hidden"); });
+}
+</script>
+</body>
+</html>

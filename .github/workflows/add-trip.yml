@@ -1,0 +1,57 @@
+name: Add trip
+
+on:
+  issues:
+    types: [opened]
+
+concurrency:
+  group: flight-watch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  add:
+    # Public repo: only the owner and collaborators (e.g. Molly) can add trips.
+    if: >-
+      startsWith(github.event.issue.title, 'Add trip') &&
+      contains(fromJSON('["OWNER","COLLABORATOR","MEMBER"]'), github.event.issue.author_association)
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: Add trip
+        id: add
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: python scripts/add_trip.py
+      - name: First price check
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          TWILIO_SID: ${{ secrets.TWILIO_SID }}
+          TWILIO_TOKEN: ${{ secrets.TWILIO_TOKEN }}
+          TWILIO_FROM: ${{ secrets.TWILIO_FROM }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python scripts/check.py --only "${{ steps.add.outputs.id }}" --grid
+      - name: Commit
+        run: |
+          git config user.name "flight-watch-bot"
+          git config user.email "flight-watch-bot@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet || (git commit -m "Add trip ${{ steps.add.outputs.id }}" && git push)
+      - name: Close issue
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OK: ${{ steps.add.outputs.id }}
+          ERR: ${{ steps.add.outputs.error }}
+        run: |
+          if [ -n "$OK" ]; then
+            gh issue close ${{ github.event.issue.number }} -R ${{ github.repository }} -c "Watching it now ($OK). Check the page in a minute."
+          else
+            gh issue comment ${{ github.event.issue.number }} -R ${{ github.repository }} -b "Couldn't add this trip: ${ERR:-see the workflow run}. Fix the issue text or open a new one."
+          fi

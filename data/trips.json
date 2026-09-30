@@ -1,0 +1,16 @@
+{
+ "trips": [
+  {
+   "id": "sea-den-2026-11-25",
+   "name": "Thanksgiving in Denver",
+   "from": "SEA",
+   "to": "DEN",
+   "depart": "2026-11-25",
+   "return": "2026-11-29",
+   "nonstop": true,
+   "companion": true,
+   "book_by": "2026-10-31",
+   "active": true
+  }
+ ]
+}
