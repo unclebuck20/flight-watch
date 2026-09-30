@@ -64,12 +64,18 @@ def main():
         fail("Depart date is in the past.")
 
     data = json.loads(TRIPS.read_text()) if TRIPS.exists() else {"trips": []}
-    base = f"{trip['from']}-{trip['to']}-{trip['depart']}".lower()
-    tid, n = base, 2
-    while any(t["id"] == tid for t in data["trips"]):
-        tid, n = f"{base}-{n}", n + 1
-    trip = {"id": tid, **trip}
-    data["trips"].append(trip)
+    # Same route and dates = same trip: update it instead of adding a duplicate.
+    same = next((t for t in data["trips"] if (t["from"], t["to"], t["depart"], t.get("return"))
+                 == (trip["from"], trip["to"], trip["depart"], trip["return"])), None)
+    if same:
+        tid = same["id"]
+        same.update(trip)
+    else:
+        base = f"{trip['from']}-{trip['to']}-{trip['depart']}".lower()
+        tid, n = base, 2
+        while any(t["id"] == tid for t in data["trips"]):
+            tid, n = f"{base}-{n}", n + 1
+        data["trips"].append({"id": tid, **trip})
     TRIPS.write_text(json.dumps(data, indent=1) + "\n")
     Path(os.environ.get("GITHUB_OUTPUT", "/dev/null")).open("a").write(f"id={tid}\n")
     print(f"::notice::Added {trip['name']} ({tid})")

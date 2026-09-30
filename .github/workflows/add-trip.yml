@@ -2,7 +2,7 @@ name: Add trip
 
 on:
   issues:
-    types: [opened]
+    types: [opened, edited, reopened]
 
 concurrency:
   group: flight-watch
@@ -16,7 +16,8 @@ jobs:
   add:
     # Public repo: only the owner and collaborators (e.g. Molly) can add trips.
     if: >-
-      startsWith(github.event.issue.title, 'Add trip') &&
+      github.event.issue.state == 'open' &&
+      contains(github.event.issue.body, '### Depart date') &&
       contains(fromJSON('["OWNER","COLLABORATOR","MEMBER"]'), github.event.issue.author_association)
     runs-on: ubuntu-24.04
     steps:
