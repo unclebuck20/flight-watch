@@ -1,7 +1,7 @@
 {
  "sea-den-2026-11-25": {
   "basis": "Alaska",
-  "checked": "2026-09-30",
+  "checked": "2026-10-01",
   "cost_note": "Alaska $643 + $122 companion",
   "cost_two": 765,
   "grid": {
@@ -55,10 +55,6 @@
   "latest": {
    "alaska": 643,
    "google_history": [
-    [
-     1785567600,
-     314
-    ],
     [
      1785654000,
      340
@@ -298,10 +294,14 @@
     [
      1790751600,
      408
+    ],
+    [
+     1790838000,
+     432
     ]
    ],
    "level": "high",
-   "low": 408,
+   "low": 432,
    "n_options": 17,
    "options": [
     {
@@ -311,7 +311,17 @@
      "depart": "2026-11-25 20:40",
      "flight": "WN 3824",
      "minutes": 160,
-     "price": 408,
+     "price": 432,
+     "stops": 0
+    },
+    {
+     "airline": "Delta",
+     "alaska": false,
+     "arrive": "2026-11-25 17:37",
+     "depart": "2026-11-25 13:52",
+     "flight": "DL 2759",
+     "minutes": 165,
+     "price": 438,
      "stops": 0
     },
     {
@@ -321,7 +331,7 @@
      "depart": "2026-11-25 05:15",
      "flight": "WN 4956",
      "minutes": 155,
-     "price": 433,
+     "price": 457,
      "stops": 0
     },
     {
@@ -341,33 +351,23 @@
      "depart": "2026-11-25 14:30",
      "flight": "WN 3823",
      "minutes": 145,
-     "price": 524,
+     "price": 548,
      "stops": 0
     },
     {
      "airline": "Delta",
      "alaska": false,
-     "arrive": "2026-11-25 17:37",
-     "depart": "2026-11-25 13:52",
-     "flight": "DL 2759",
-     "minutes": 165,
-     "price": 587,
-     "stops": 0
-    },
-    {
-     "airline": "United",
-     "alaska": false,
-     "arrive": "2026-11-25 08:42",
-     "depart": "2026-11-25 05:05",
-     "flight": "UA 757",
-     "minutes": 157,
-     "price": 597,
+     "arrive": "2026-11-25 12:17",
+     "depart": "2026-11-25 08:30",
+     "flight": "DL 1358",
+     "minutes": 167,
+     "price": 558,
      "stops": 0
     }
    ],
    "typical": [
-    80,
-    310
+    85,
+    315
    ],
    "url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhogEgoyMDI2LTExLTI1KABqBwgBEgNTRUFyBwgBEgNERU4aIBIKMjAyNi0xMS0yOSgAagcIARIDREVOcgcIARIDU0VBQAFIAXABmAEB&tfu=EgIIAQ"
   },
@@ -385,9 +385,16 @@
     "level": "high",
     "low": 408,
     "tracked": 643
+   },
+   {
+    "alaska": 643,
+    "date": "2026-10-01",
+    "level": "high",
+    "low": 432,
+    "tracked": 643
    }
   ],
-  "reason": "Book-by deadline in 10 days. Take the best price available now.",
+  "reason": "Book-by deadline in 9 days. Take the best price available now.",
   "verdict": "BUY"
  }
 }
