@@ -1,9 +1,9 @@
 {
  "sea-den-2026-11-25": {
   "basis": "Alaska",
-  "checked": "2026-10-06",
-  "cost_note": "Alaska $516 + $122 companion",
-  "cost_two": 638,
+  "checked": "2026-10-07",
+  "cost_note": "Alaska $523 + $122 companion",
+  "cost_two": 645,
   "grid": {
    "checked": "2026-10-05",
    "rows": [
@@ -60,12 +60,8 @@
   },
   "last_verdict": "BUY",
   "latest": {
-   "alaska": 516,
+   "alaska": 523,
    "google_history": [
-    [
-     1786086000,
-     336
-    ],
     [
      1786172400,
      342
@@ -304,6 +300,10 @@
     ],
     [
      1791270000,
+     338
+    ],
+    [
+     1791356400,
      357
     ]
    ],
@@ -342,6 +342,16 @@
      "stops": 0
     },
     {
+     "airline": "Frontier",
+     "alaska": false,
+     "arrive": "2026-11-25 20:25",
+     "depart": "2026-11-25 16:37",
+     "flight": "F9 1916",
+     "minutes": 168,
+     "price": 473,
+     "stops": 0
+    },
+    {
      "airline": "Southwest",
      "alaska": false,
      "arrive": "2026-11-25 08:50",
@@ -359,16 +369,6 @@
      "flight": "UA 725",
      "minutes": 161,
      "price": 477,
-     "stops": 0
-    },
-    {
-     "airline": "Delta",
-     "alaska": false,
-     "arrive": "2026-11-25 23:47",
-     "depart": "2026-11-25 19:59",
-     "flight": "DL 2851",
-     "minutes": 168,
-     "price": 478,
      "stops": 0
     }
    ],
@@ -434,9 +434,16 @@
     "level": "high",
     "low": 357,
     "tracked": 516
+   },
+   {
+    "alaska": 523,
+    "date": "2026-10-07",
+    "level": "high",
+    "low": 357,
+    "tracked": 523
    }
   ],
-  "reason": "Book-by deadline in 4 days. Take the best price available now.",
+  "reason": "Book-by deadline in 3 days. Take the best price available now.",
   "verdict": "BUY"
  }
 }

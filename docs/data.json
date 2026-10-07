@@ -1,29 +1,25 @@
 {
  "meta": {
-  "built": "2026-10-06T19:35+00:00",
+  "built": "2026-10-07T20:00+00:00",
   "companion_cost": 122,
-  "searches_left": 230,
-  "today": "2026-10-06"
+  "searches_left": 229,
+  "today": "2026-10-07"
  },
  "trips": [
   {
    "active": true,
-   "alaska": 516,
+   "alaska": 523,
    "basis": "Alaska",
    "book_by": "2026-10-10",
-   "checked": "2026-10-06",
+   "checked": "2026-10-07",
    "companion": true,
-   "cost_note": "Alaska $516 + $122 companion",
-   "cost_two": 638,
-   "days_to_deadline": 4,
-   "days_to_depart": 50,
+   "cost_note": "Alaska $523 + $122 companion",
+   "cost_two": 645,
+   "days_to_deadline": 3,
+   "days_to_depart": 49,
    "depart": "2026-11-25",
    "from": "SEA",
    "google_history": [
-    [
-     "2026-08-07",
-     336
-    ],
     [
      "2026-08-08",
      342
@@ -262,6 +258,10 @@
     ],
     [
      "2026-10-06",
+     338
+    ],
+    [
+     "2026-10-07",
      357
     ]
    ],
@@ -351,6 +351,10 @@
     [
      "2026-10-06",
      516
+    ],
+    [
+     "2026-10-07",
+     523
     ]
    ],
    "id": "sea-den-2026-11-25",
@@ -390,6 +394,16 @@
      "stops": 0
     },
     {
+     "airline": "Frontier",
+     "alaska": false,
+     "arrive": "2026-11-25 20:25",
+     "depart": "2026-11-25 16:37",
+     "flight": "F9 1916",
+     "minutes": 168,
+     "price": 473,
+     "stops": 0
+    },
+    {
      "airline": "Southwest",
      "alaska": false,
      "arrive": "2026-11-25 08:50",
@@ -408,20 +422,10 @@
      "minutes": 161,
      "price": 477,
      "stops": 0
-    },
-    {
-     "airline": "Delta",
-     "alaska": false,
-     "arrive": "2026-11-25 23:47",
-     "depart": "2026-11-25 19:59",
-     "flight": "DL 2851",
-     "minutes": 168,
-     "price": 478,
-     "stops": 0
     }
    ],
    "past": false,
-   "reason": "Book-by deadline in 4 days. Take the best price available now.",
+   "reason": "Book-by deadline in 3 days. Take the best price available now.",
    "return": "2026-11-29",
    "to": "DEN",
    "typical": [
