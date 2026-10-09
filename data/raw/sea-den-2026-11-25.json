@@ -61,11 +61,11 @@
   {
    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WN.png",
    "carbon_emissions": {
-    "difference_percent": -34,
+    "difference_percent": -33,
     "this_flight": 140000,
-    "typical_for_this_route": 211000
+    "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJTldWV2FsWTFibEo2YW5OQlFsQnRUVkZDUnkwdExTMHRMVzlyZUdVeE5TMXVNa0ZCUVVGQlIzSklPV2RWUWpOa1NrVkJFZ1pYVGpNNE1qUWFDd2l3cGdJUUFob0RWVk5FT0J4d3NLWUMiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIldOIiwiMzgyNCJdXV0=",
+   "departure_token": "WyJDalJJVG10NFQwSmtURmxuTTBWQlJ6SnlUWGRDUnkwdExTMHRMUzF2ZVdaME5DMXVNa0ZCUVVGQlIzSktVV0Z6UlU1M2VGVkJFZ1pYVGpNNE1qUWFDd2o4NEFJUUFob0RWVk5FT0J4dy9PQUMiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIldOIiwiMzgyNCJdXV0=",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -98,18 +98,18 @@
      "travel_class": "Economy"
     }
    ],
-   "price": 377,
+   "price": 452,
    "total_duration": 160,
    "type": "Round trip"
   },
   {
    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
    "carbon_emissions": {
-    "difference_percent": -44,
+    "difference_percent": -43,
     "this_flight": 119000,
-    "typical_for_this_route": 211000
+    "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJTldWV2FsWTFibEo2YW5OQlFsQnRUVkZDUnkwdExTMHRMVzlyZUdVeE5TMXVNa0ZCUVVGQlIzSklPV2RWUWpOa1NrVkJFZ1ZWUVRjMU54b0xDSkxpQWhBQ0dnTlZVMFE0SEhDUzRnST0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIlVBIiwiNzU3Il1dXQ==",
+   "departure_token": "WyJDalJJVG10NFQwSmtURmxuTTBWQlJ6SnlUWGRDUnkwdExTMHRMUzF2ZVdaME5DMXVNa0ZCUVVGQlIzSktVV0Z6UlU1M2VGVkJFZ1ZWUVRjMU54b0xDSmZuQWhBQ0dnTlZVMFE0SEhDWDV3ST0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIlVBIiwiNzU3Il1dXQ==",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -143,18 +143,18 @@
      "travel_class": "Economy"
     }
    ],
-   "price": 454,
+   "price": 460,
    "total_duration": 157,
    "type": "Round trip"
   },
   {
    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
    "carbon_emissions": {
-    "difference_percent": -31,
+    "difference_percent": -30,
     "this_flight": 146000,
-    "typical_for_this_route": 211000
+    "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJTldWV2FsWTFibEo2YW5OQlFsQnRUVkZDUnkwdExTMHRMVzlyZUdVeE5TMXVNa0ZCUVVGQlIzSklPV2RWUWpOa1NrVkJFZ1pWUVRFeU1UZ2FDd2lTNGdJUUFob0RWVk5FT0J4d2t1SUMiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIlVBIiwiMTIxOCJdXV0=",
+   "departure_token": "WyJDalJJVG10NFQwSmtURmxuTTBWQlJ6SnlUWGRDUnkwdExTMHRMUzF2ZVdaME5DMXVNa0ZCUVVGQlIzSktVV0Z6UlU1M2VGVkJFZ1pWUVRFeU1UZ2FDd2lYNXdJUUFob0RWVk5FT0J4d2wrY0MiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIlVBIiwiMTIxOCJdXV0=",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -187,7 +187,7 @@
      "travel_class": "Economy"
     }
    ],
-   "price": 454,
+   "price": 460,
    "total_duration": 161,
    "type": "Round trip"
   }
@@ -198,9 +198,9 @@
    "carbon_emissions": {
     "difference_percent": -32,
     "this_flight": 143000,
-    "typical_for_this_route": 211000
+    "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJTldWV2FsWTFibEo2YW5OQlFsQnRUVkZDUnkwdExTMHRMVzlyZUdVeE5TMXVNa0ZCUVVGQlIzSklPV2RWUWpOa1NrVkJFZ1ZWUVRjeU5Sb0xDTW1FQXhBQ0dnTlZVMFE0SEhESmhBTT0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIlVBIiwiNzI1Il1dXQ==",
+   "departure_token": "WyJDalJJVG10NFQwSmtURmxuTTBWQlJ6SnlUWGRDUnkwdExTMHRMUzF2ZVdaME5DMXVNa0ZCUVVGQlIzSktVV0Z6UlU1M2VGVkJFZ1ZWUVRjeU5Sb0xDTTZKQXhBQ0dnTlZVMFE0SEhET2lRTT0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIlVBIiwiNzI1Il1dXQ==",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -233,18 +233,18 @@
      "travel_class": "Economy"
     }
    ],
-   "price": 498,
+   "price": 504,
    "total_duration": 161,
    "type": "Round trip"
   },
   {
    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WN.png",
    "carbon_emissions": {
-    "difference_percent": -42,
+    "difference_percent": -41,
     "this_flight": 123000,
-    "typical_for_this_route": 211000
+    "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJTldWV2FsWTFibEo2YW5OQlFsQnRUVkZDUnkwdExTMHRMVzlyZUdVeE5TMXVNa0ZCUVVGQlIzSklPV2RWUWpOa1NrVkJFZ1pYVGpRNU5UWWFDd2pkakFNUUFob0RWVk5FT0J4dzNZd0QiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIldOIiwiNDk1NiJdXV0=",
+   "departure_token": "WyJDalJJVG10NFQwSmtURmxuTTBWQlJ6SnlUWGRDUnkwdExTMHRMUzF2ZVdaME5DMXVNa0ZCUVVGQlIzSktVV0Z6UlU1M2VGVkJFZ1pYVGpRNU5UWWFDd2pKbXdNUUFob0RWVk5FT0J4d3lac0QiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIldOIiwiNDk1NiJdXV0=",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -277,18 +277,18 @@
      "travel_class": "Economy"
     }
    ],
-   "price": 508,
+   "price": 527,
    "total_duration": 155,
    "type": "Round trip"
   },
   {
    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
    "carbon_emissions": {
-    "difference_percent": -31,
+    "difference_percent": -30,
     "this_flight": 146000,
-    "typical_for_this_route": 211000
+    "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJTldWV2FsWTFibEo2YW5OQlFsQnRUVkZDUnkwdExTMHRMVzlyZUdVeE5TMXVNa0ZCUVVGQlIzSklPV2RWUWpOa1NrVkJFZ1pWUVRFMU1EVWFDd2lSbXdNUUFob0RWVk5FT0J4d2tac0QiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIlVBIiwiMTUwNSJdXV0=",
+   "departure_token": "WyJDalJJVG10NFQwSmtURmxuTTBWQlJ6SnlUWGRDUnkwdExTMHRMUzF2ZVdaME5DMXVNa0ZCUVVGQlIzSktVV0Z6UlU1M2VGVkJFZ1pWUVRFMU1EVWFDd2lXb0FNUUFob0RWVk5FT0J4d2xxQUQiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIlVBIiwiMTUwNSJdXV0=",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -321,59 +321,18 @@
      "travel_class": "Economy"
     }
    ],
-   "price": 527,
+   "price": 533,
    "total_duration": 164,
-   "type": "Round trip"
-  },
-  {
-   "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
-   "carbon_emissions": {
-    "difference_percent": -50,
-    "this_flight": 105000,
-    "typical_for_this_route": 211000
-   },
-   "departure_token": "WyJDalJJTldWV2FsWTFibEo2YW5OQlFsQnRUVkZDUnkwdExTMHRMVzlyZUdVeE5TMXVNa0ZCUVVGQlIzSklPV2RWUWpOa1NrVkJFZ1pHT1RFNU1UWWFDd2lFMEFNUUFob0RWVk5FT0J4d2hOQUQiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkY5IiwiMTkxNiJdXV0=",
-   "extensions": [
-    "Checked baggage for a fee",
-    "Bag and fare conditions depend on the return flight"
-   ],
-   "flights": [
-    {
-     "airline": "Frontier",
-     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
-     "airplane": "Airbus A321neo",
-     "arrival_airport": {
-      "id": "DEN",
-      "name": "Denver International Airport",
-      "time": "2026-11-25 20:25"
-     },
-     "departure_airport": {
-      "id": "SEA",
-      "name": "Seattle-Tacoma International Airport",
-      "time": "2026-11-25 16:37"
-     },
-     "duration": 168,
-     "extensions": [
-      "Below average legroom (28 in)",
-      "Carbon emissions estimate: 104 kg"
-     ],
-     "flight_number": "F9 1916",
-     "legroom": "28 in",
-     "travel_class": "Economy"
-    }
-   ],
-   "price": 594,
-   "total_duration": 168,
    "type": "Round trip"
   },
   {
    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WN.png",
    "carbon_emissions": {
-    "difference_percent": -42,
+    "difference_percent": -41,
     "this_flight": 123000,
-    "typical_for_this_route": 211000
+    "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJTldWV2FsWTFibEo2YW5OQlFsQnRUVkZDUnkwdExTMHRMVzlyZUdVeE5TMXVNa0ZCUVVGQlIzSklPV2RWUWpOa1NrVkJFZ1pYVGpNNE1qTWFDd2paMEFNUUFob0RWVk5FT0J4dzJkQUQiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIldOIiwiMzgyMyJdXV0=",
+   "departure_token": "WyJDalJJVG10NFQwSmtURmxuTTBWQlJ6SnlUWGRDUnkwdExTMHRMUzF2ZVdaME5DMXVNa0ZCUVVGQlIzSktVV0Z6UlU1M2VGVkJFZ1pYVGpNNE1qTWFDd2paMEFNUUFob0RWVk5FT0J4dzJkQUQiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIldOIiwiMzgyMyJdXV0=",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -411,13 +370,54 @@
    "type": "Round trip"
   },
   {
+   "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+   "carbon_emissions": {
+    "difference_percent": -50,
+    "this_flight": 105000,
+    "typical_for_this_route": 210000
+   },
+   "departure_token": "WyJDalJJVG10NFQwSmtURmxuTTBWQlJ6SnlUWGRDUnkwdExTMHRMUzF2ZVdaME5DMXVNa0ZCUVVGQlIzSktVV0Z6UlU1M2VGVkJFZ1pHT1RFNU1UWWFDd2o0MHdNUUFob0RWVk5FT0J4dytOTUQiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkY5IiwiMTkxNiJdXV0=",
+   "extensions": [
+    "Checked baggage for a fee",
+    "Bag and fare conditions depend on the return flight"
+   ],
+   "flights": [
+    {
+     "airline": "Frontier",
+     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+     "airplane": "Airbus A321neo",
+     "arrival_airport": {
+      "id": "DEN",
+      "name": "Denver International Airport",
+      "time": "2026-11-25 20:25"
+     },
+     "departure_airport": {
+      "id": "SEA",
+      "name": "Seattle-Tacoma International Airport",
+      "time": "2026-11-25 16:37"
+     },
+     "duration": 168,
+     "extensions": [
+      "Below average legroom (28 in)",
+      "Carbon emissions estimate: 104 kg"
+     ],
+     "flight_number": "F9 1916",
+     "legroom": "28 in",
+     "travel_class": "Economy"
+    }
+   ],
+   "price": 599,
+   "total_duration": 168,
+   "type": "Round trip"
+  },
+  {
    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
    "carbon_emissions": {
     "difference_percent": -32,
     "this_flight": 143000,
-    "typical_for_this_route": 211000
+    "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJTldWV2FsWTFibEo2YW5OQlFsQnRUVkZDUnkwdExTMHRMVzlyZUdVeE5TMXVNa0ZCUVVGQlIzSklPV2RWUWpOa1NrVkJFZ1pWUVRFMU16UWFDd2oxMGdNUUFob0RWVk5FT0J4dzlkSUQiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIlVBIiwiMTUzNCJdXV0=",
+   "departure_token": "WyJDalJJVG10NFQwSmtURmxuTTBWQlJ6SnlUWGRDUnkwdExTMHRMUzF2ZVdaME5DMXVNa0ZCUVVGQlIzSktVV0Z6UlU1M2VGVkJFZ1pWUVRFMU16UWFDd2psMkFNUUFob0RWVk5FT0J4dzVkZ0QiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIlVBIiwiMTUzNCJdXV0=",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -451,18 +451,18 @@
      "travel_class": "Economy"
     }
    ],
-   "price": 598,
+   "price": 606,
    "total_duration": 161,
    "type": "Round trip"
   },
   {
    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
    "carbon_emissions": {
-    "difference_percent": -32,
+    "difference_percent": -31,
     "this_flight": 144000,
-    "typical_for_this_route": 211000
+    "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJTldWV2FsWTFibEo2YW5OQlFsQnRUVkZDUnkwdExTMHRMVzlyZUdVeE5TMXVNa0ZCUVVGQlIzSklPV2RWUWpOa1NrVkJFZ1ZCVXpRME1Cb0xDTUh4QXhBQ0dnTlZVMFE0SEhEQjhRTT0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkFTIiwiNDQwIl1dXQ==",
+   "departure_token": "WyJDalJJVG10NFQwSmtURmxuTTBWQlJ6SnlUWGRDUnkwdExTMHRMUzF2ZVdaME5DMXVNa0ZCUVVGQlIzSktVV0Z6UlU1M2VGVkJFZ1ZCVXpRME1Cb0xDSm4yQXhBQ0dnTlZVMFE0SEhDWjlnTT0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkFTIiwiNDQwIl1dXQ==",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -495,7 +495,7 @@
      "travel_class": "Economy"
     }
    ],
-   "price": 637,
+   "price": 643,
    "total_duration": 163,
    "type": "Round trip"
   },
@@ -504,9 +504,9 @@
    "carbon_emissions": {
     "difference_percent": -5,
     "this_flight": 200000,
-    "typical_for_this_route": 211000
+    "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJTldWV2FsWTFibEo2YW5OQlFsQnRUVkZDUnkwdExTMHRMVzlyZUdVeE5TMXVNa0ZCUVVGQlIzSklPV2RWUWpOa1NrVkJFZ1pFVERJNE5URWFDd2pJbUFRUUFob0RWVk5FT0J4d3lKZ0UiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkRMIiwiMjg1MSJdXV0=",
+   "departure_token": "WyJDalJJVG10NFQwSmtURmxuTTBWQlJ6SnlUWGRDUnkwdExTMHRMUzF2ZVdaME5DMXVNa0ZCUVVGQlIzSktVV0Z6UlU1M2VGVkJFZ1pFVERJNE5URWFDd2pJbUFRUUFob0RWVk5FT0J4d3lKZ0UiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkRMIiwiMjg1MSJdXV0=",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -548,9 +548,9 @@
    "carbon_emissions": {
     "difference_percent": -41,
     "this_flight": 124000,
-    "typical_for_this_route": 211000
+    "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJTldWV2FsWTFibEo2YW5OQlFsQnRUVkZDUnkwdExTMHRMVzlyZUdVeE5TMXVNa0ZCUVVGQlIzSklPV2RWUWpOa1NrVkJFZ1ZCVXpZNE1ob0xDSW5YQkJBQ0dnTlZVMFE0SEhDSjF3UT0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkFTIiwiNjgyIl1dXQ==",
+   "departure_token": "WyJDalJJVG10NFQwSmtURmxuTTBWQlJ6SnlUWGRDUnkwdExTMHRMUzF2ZVdaME5DMXVNa0ZCUVVGQlIzSktVV0Z6UlU1M2VGVkJFZ1ZCVXpZNE1ob0xDSW5YQkJBQ0dnTlZVMFE0SEhDSjF3UT0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkFTIiwiNjgyIl1dXQ==",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -590,11 +590,11 @@
   {
    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
    "carbon_emissions": {
-    "difference_percent": -32,
+    "difference_percent": -31,
     "this_flight": 144000,
-    "typical_for_this_route": 211000
+    "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJTldWV2FsWTFibEo2YW5OQlFsQnRUVkZDUnkwdExTMHRMVzlyZUdVeE5TMXVNa0ZCUVVGQlIzSklPV2RWUWpOa1NrVkJFZ1ZCVXpReU1Sb0xDSW5YQkJBQ0dnTlZVMFE0SEhDSjF3UT0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkFTIiwiNDIxIl1dXQ==",
+   "departure_token": "WyJDalJJVG10NFQwSmtURmxuTTBWQlJ6SnlUWGRDUnkwdExTMHRMUzF2ZVdaME5DMXVNa0ZCUVVGQlIzSktVV0Z6UlU1M2VGVkJFZ1ZCVXpReU1Sb0xDSW5YQkJBQ0dnTlZVMFE0SEhDSjF3UT0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkFTIiwiNDIxIl1dXQ==",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -634,11 +634,11 @@
   {
    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
    "carbon_emissions": {
-    "difference_percent": -32,
+    "difference_percent": -31,
     "this_flight": 144000,
-    "typical_for_this_route": 211000
+    "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJTldWV2FsWTFibEo2YW5OQlFsQnRUVkZDUnkwdExTMHRMVzlyZUdVeE5TMXVNa0ZCUVVGQlIzSklPV2RWUWpOa1NrVkJFZ1ZCVXpNeE1Cb0xDTDJaQlJBQ0dnTlZVMFE0SEhDOW1RVT0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkFTIiwiMzEwIl1dXQ==",
+   "departure_token": "WyJDalJJVG10NFQwSmtURmxuTTBWQlJ6SnlUWGRDUnkwdExTMHRMUzF2ZVdaME5DMXVNa0ZCUVVGQlIzSktVV0Z6UlU1M2VGVkJFZ1ZCVXpNeE1Cb0xDTDJaQlJBQ0dnTlZVMFE0SEhDOW1RVT0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkFTIiwiMzEwIl1dXQ==",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -680,9 +680,9 @@
    "carbon_emissions": {
     "difference_percent": -5,
     "this_flight": 200000,
-    "typical_for_this_route": 211000
+    "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJTldWV2FsWTFibEo2YW5OQlFsQnRUVkZDUnkwdExTMHRMVzlyZUdVeE5TMXVNa0ZCUVVGQlIzSklPV2RWUWpOa1NrVkJFZ1pFVERJM05Ua2FDd2l3blFVUUFob0RWVk5FT0J4d3NKMEYiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkRMIiwiMjc1OSJdXV0=",
+   "departure_token": "WyJDalJJVG10NFQwSmtURmxuTTBWQlJ6SnlUWGRDUnkwdExTMHRMUzF2ZVdaME5DMXVNa0ZCUVVGQlIzSktVV0Z6UlU1M2VGVkJFZ1pFVERJM05Ua2FDd2l3blFVUUFob0RWVk5FT0J4d3NKMEYiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkRMIiwiMjc1OSJdXV0=",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -722,11 +722,11 @@
   {
    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
    "carbon_emissions": {
-    "difference_percent": -32,
+    "difference_percent": -31,
     "this_flight": 144000,
-    "typical_for_this_route": 211000
+    "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJTldWV2FsWTFibEo2YW5OQlFsQnRUVkZDUnkwdExTMHRMVzlyZUdVeE5TMXVNa0ZCUVVGQlIzSklPV2RWUWpOa1NrVkJFZ1ZCVXpVek5Sb0xDSlRRQlJBQ0dnTlZVMFE0SEhDVTBBVT0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkFTIiwiNTM1Il1dXQ==",
+   "departure_token": "WyJDalJJVG10NFQwSmtURmxuTTBWQlJ6SnlUWGRDUnkwdExTMHRMUzF2ZVdaME5DMXVNa0ZCUVVGQlIzSktVV0Z6UlU1M2VGVkJFZ1ZCVXpVek5Sb0xDSlRRQlJBQ0dnTlZVMFE0SEhDVTBBVT0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkFTIiwiNTM1Il1dXQ==",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -768,9 +768,9 @@
    "carbon_emissions": {
     "difference_percent": -5,
     "this_flight": 200000,
-    "typical_for_this_route": 211000
+    "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJTldWV2FsWTFibEo2YW5OQlFsQnRUVkZDUnkwdExTMHRMVzlyZUdVeE5TMXVNa0ZCUVVGQlIzSklPV2RWUWpOa1NrVkJFZ1pFVERFek5UZ2FDd2lQK3dVUUFob0RWVk5FT0J4d2ovc0YiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkRMIiwiMTM1OCJdXV0=",
+   "departure_token": "WyJDalJJVG10NFQwSmtURmxuTTBWQlJ6SnlUWGRDUnkwdExTMHRMUzF2ZVdaME5DMXVNa0ZCUVVGQlIzSktVV0Z6UlU1M2VGVkJFZ1pFVERFek5UZ2FDd2lQK3dVUUFob0RWVk5FT0J4d2ovc0YiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkRMIiwiMTM1OCJdXV0=",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -809,12 +809,8 @@
   }
  ],
  "price_insights": {
-  "lowest_price": 377,
+  "lowest_price": 452,
   "price_history": [
-   [
-    1786258800,
-    342
-   ],
    [
     1786345200,
     333
@@ -1054,6 +1050,10 @@
    [
     1791442800,
     377
+   ],
+   [
+    1791529200,
+    452
    ]
   ],
   "price_level": "high",
@@ -1063,16 +1063,16 @@
   ]
  },
  "search_metadata": {
-  "created_at": "2026-10-08 19:59:00 UTC",
+  "created_at": "2026-10-09 19:34:00 UTC",
   "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhogEgoyMDI2LTExLTI1KABqBwgBEgNTRUFyBwgBEgNERU4aIBIKMjAyNi0xMS0yOSgAagcIARIDREVOcgcIARIDU0VBQAFIAXABmAEB&tfu=EgIIAQ",
-  "id": "6ac7f604ec900dae16b8c1d4",
-  "json_endpoint": "https://serpapi.com/searches/fXLfmB8lvxAY5mKDgro1zFsetPTYy1tsrTDyVhlUEEM/6ac7f604ec900dae16b8c1d4.json",
-  "markdown_endpoint": "https://serpapi.com/searches/fXLfmB8lvxAY5mKDgro1zFsetPTYy1tsrTDyVhlUEEM/6ac7f604ec900dae16b8c1d4.md",
-  "prettify_html_file": "https://serpapi.com/searches/fXLfmB8lvxAY5mKDgro1zFsetPTYy1tsrTDyVhlUEEM/6ac7f604ec900dae16b8c1d4.prettify",
-  "processed_at": "2026-10-08 19:59:00 UTC",
-  "raw_html_file": "https://serpapi.com/searches/fXLfmB8lvxAY5mKDgro1zFsetPTYy1tsrTDyVhlUEEM/6ac7f604ec900dae16b8c1d4.html",
+  "id": "6ac941a8ec900d543134a636",
+  "json_endpoint": "https://serpapi.com/searches/NG0OiqpjdzwhubSAy_XazooK1_IFRgNW1tzj1RKUTbc/6ac941a8ec900d543134a636.json",
+  "markdown_endpoint": "https://serpapi.com/searches/NG0OiqpjdzwhubSAy_XazooK1_IFRgNW1tzj1RKUTbc/6ac941a8ec900d543134a636.md",
+  "prettify_html_file": "https://serpapi.com/searches/NG0OiqpjdzwhubSAy_XazooK1_IFRgNW1tzj1RKUTbc/6ac941a8ec900d543134a636.prettify",
+  "processed_at": "2026-10-09 19:34:00 UTC",
+  "raw_html_file": "https://serpapi.com/searches/NG0OiqpjdzwhubSAy_XazooK1_IFRgNW1tzj1RKUTbc/6ac941a8ec900d543134a636.html",
   "status": "Success",
-  "total_time_taken": 1.63
+  "total_time_taken": 6.41
  },
  "search_parameters": {
   "adults": 1,

@@ -1,9 +1,9 @@
 {
  "sea-den-2026-11-25": {
   "basis": "Alaska",
-  "checked": "2026-10-08",
-  "cost_note": "Alaska $637 + $122 companion",
-  "cost_two": 759,
+  "checked": "2026-10-09",
+  "cost_note": "Alaska $643 + $122 companion",
+  "cost_two": 765,
   "grid": {
    "checked": "2026-10-05",
    "rows": [
@@ -60,12 +60,8 @@
   },
   "last_verdict": "BUY",
   "latest": {
-   "alaska": 637,
+   "alaska": 643,
    "google_history": [
-    [
-     1786258800,
-     342
-    ],
     [
      1786345200,
      333
@@ -305,10 +301,14 @@
     [
      1791442800,
      377
+    ],
+    [
+     1791529200,
+     452
     ]
    ],
    "level": "high",
-   "low": 377,
+   "low": 452,
    "n_options": 17,
    "options": [
     {
@@ -318,7 +318,7 @@
      "depart": "2026-11-25 20:40",
      "flight": "WN 3824",
      "minutes": 160,
-     "price": 377,
+     "price": 452,
      "stops": 0
     },
     {
@@ -328,7 +328,7 @@
      "depart": "2026-11-25 05:05",
      "flight": "UA 757",
      "minutes": 157,
-     "price": 454,
+     "price": 460,
      "stops": 0
     },
     {
@@ -338,7 +338,7 @@
      "depart": "2026-11-25 19:04",
      "flight": "UA 1218",
      "minutes": 161,
-     "price": 454,
+     "price": 460,
      "stops": 0
     },
     {
@@ -348,7 +348,7 @@
      "depart": "2026-11-25 15:49",
      "flight": "UA 725",
      "minutes": 161,
-     "price": 498,
+     "price": 504,
      "stops": 0
     },
     {
@@ -358,7 +358,7 @@
      "depart": "2026-11-25 05:15",
      "flight": "WN 4956",
      "minutes": 155,
-     "price": 508,
+     "price": 527,
      "stops": 0
     },
     {
@@ -368,7 +368,7 @@
      "depart": "2026-11-25 08:30",
      "flight": "UA 1505",
      "minutes": 164,
-     "price": 527,
+     "price": 533,
      "stops": 0
     }
    ],
@@ -448,9 +448,16 @@
     "level": "high",
     "low": 377,
     "tracked": 637
+   },
+   {
+    "alaska": 643,
+    "date": "2026-10-09",
+    "level": "high",
+    "low": 452,
+    "tracked": 643
    }
   ],
-  "reason": "Book-by deadline in 2 days. Take the best price available now.",
+  "reason": "Book-by deadline in 1 days. Take the best price available now.",
   "verdict": "BUY"
  }
 }

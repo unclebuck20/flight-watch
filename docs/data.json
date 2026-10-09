@@ -1,29 +1,25 @@
 {
  "meta": {
-  "built": "2026-10-08T19:59+00:00",
+  "built": "2026-10-09T19:34+00:00",
   "companion_cost": 122,
   "searches_left": 228,
-  "today": "2026-10-08"
+  "today": "2026-10-09"
  },
  "trips": [
   {
    "active": true,
-   "alaska": 637,
+   "alaska": 643,
    "basis": "Alaska",
    "book_by": "2026-10-10",
-   "checked": "2026-10-08",
+   "checked": "2026-10-09",
    "companion": true,
-   "cost_note": "Alaska $637 + $122 companion",
-   "cost_two": 759,
-   "days_to_deadline": 2,
-   "days_to_depart": 48,
+   "cost_note": "Alaska $643 + $122 companion",
+   "cost_two": 765,
+   "days_to_deadline": 1,
+   "days_to_depart": 47,
    "depart": "2026-11-25",
    "from": "SEA",
    "google_history": [
-    [
-     "2026-08-09",
-     342
-    ],
     [
      "2026-08-10",
      333
@@ -263,6 +259,10 @@
     [
      "2026-10-08",
      377
+    ],
+    [
+     "2026-10-09",
+     452
     ]
    ],
    "grid": {
@@ -359,11 +359,15 @@
     [
      "2026-10-08",
      637
+    ],
+    [
+     "2026-10-09",
+     643
     ]
    ],
    "id": "sea-den-2026-11-25",
    "level": "high",
-   "low": 377,
+   "low": 452,
    "name": "Thanksgiving",
    "nonstop": true,
    "options": [
@@ -374,7 +378,7 @@
      "depart": "2026-11-25 20:40",
      "flight": "WN 3824",
      "minutes": 160,
-     "price": 377,
+     "price": 452,
      "stops": 0
     },
     {
@@ -384,7 +388,7 @@
      "depart": "2026-11-25 05:05",
      "flight": "UA 757",
      "minutes": 157,
-     "price": 454,
+     "price": 460,
      "stops": 0
     },
     {
@@ -394,7 +398,7 @@
      "depart": "2026-11-25 19:04",
      "flight": "UA 1218",
      "minutes": 161,
-     "price": 454,
+     "price": 460,
      "stops": 0
     },
     {
@@ -404,7 +408,7 @@
      "depart": "2026-11-25 15:49",
      "flight": "UA 725",
      "minutes": 161,
-     "price": 498,
+     "price": 504,
      "stops": 0
     },
     {
@@ -414,7 +418,7 @@
      "depart": "2026-11-25 05:15",
      "flight": "WN 4956",
      "minutes": 155,
-     "price": 508,
+     "price": 527,
      "stops": 0
     },
     {
@@ -424,12 +428,12 @@
      "depart": "2026-11-25 08:30",
      "flight": "UA 1505",
      "minutes": 164,
-     "price": 527,
+     "price": 533,
      "stops": 0
     }
    ],
    "past": false,
-   "reason": "Book-by deadline in 2 days. Take the best price available now.",
+   "reason": "Book-by deadline in 1 days. Take the best price available now.",
    "return": "2026-11-29",
    "to": "DEN",
    "typical": [
