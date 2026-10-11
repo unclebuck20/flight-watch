@@ -1,7 +1,7 @@
 {
  "sea-den-2026-11-25": {
   "basis": "Alaska",
-  "checked": "2026-10-10",
+  "checked": "2026-10-11",
   "cost_note": "Alaska $683 + $122 companion",
   "cost_two": 805,
   "grid": {
@@ -62,10 +62,6 @@
   "latest": {
    "alaska": 683,
    "google_history": [
-    [
-     1786431600,
-     333
-    ],
     [
      1786518000,
      318
@@ -304,11 +300,15 @@
     ],
     [
      1791615600,
-     452
+     432
+    ],
+    [
+     1791702000,
+     432
     ]
    ],
    "level": "high",
-   "low": 452,
+   "low": 432,
    "n_options": 17,
    "options": [
     {
@@ -318,7 +318,7 @@
      "depart": "2026-11-25 20:40",
      "flight": "WN 3824",
      "minutes": 160,
-     "price": 452,
+     "price": 432,
      "stops": 0
     },
     {
@@ -328,7 +328,17 @@
      "depart": "2026-11-25 05:15",
      "flight": "WN 4956",
      "minutes": 155,
-     "price": 537,
+     "price": 517,
+     "stops": 0
+    },
+    {
+     "airline": "Southwest",
+     "alaska": false,
+     "arrive": "2026-11-25 17:55",
+     "depart": "2026-11-25 14:30",
+     "flight": "WN 3823",
+     "minutes": 145,
+     "price": 575,
      "stops": 0
     },
     {
@@ -338,7 +348,7 @@
      "depart": "2026-11-25 19:04",
      "flight": "UA 1218",
      "minutes": 161,
-     "price": 589,
+     "price": 588,
      "stops": 0
     },
     {
@@ -352,23 +362,13 @@
      "stops": 0
     },
     {
-     "airline": "Southwest",
-     "alaska": false,
-     "arrive": "2026-11-25 17:55",
-     "depart": "2026-11-25 14:30",
-     "flight": "WN 3823",
-     "minutes": 145,
-     "price": 595,
-     "stops": 0
-    },
-    {
      "airline": "United",
      "alaska": false,
      "arrive": "2026-11-25 08:42",
      "depart": "2026-11-25 05:05",
      "flight": "UA 757",
      "minutes": 157,
-     "price": 614,
+     "price": 613,
      "stops": 0
     }
    ],
@@ -461,6 +461,13 @@
     "date": "2026-10-10",
     "level": "high",
     "low": 452,
+    "tracked": 683
+   },
+   {
+    "alaska": 683,
+    "date": "2026-10-11",
+    "level": "high",
+    "low": 432,
     "tracked": 683
    }
   ],

@@ -1,9 +1,9 @@
 {
  "meta": {
-  "built": "2026-10-10T18:41+00:00",
+  "built": "2026-10-11T18:58+00:00",
   "companion_cost": 122,
-  "searches_left": 226,
-  "today": "2026-10-10"
+  "searches_left": 225,
+  "today": "2026-10-11"
  },
  "trips": [
   {
@@ -11,19 +11,15 @@
    "alaska": 683,
    "basis": "Alaska",
    "book_by": "2026-10-10",
-   "checked": "2026-10-10",
+   "checked": "2026-10-11",
    "companion": true,
    "cost_note": "Alaska $683 + $122 companion",
    "cost_two": 805,
-   "days_to_deadline": 0,
-   "days_to_depart": 46,
+   "days_to_deadline": -1,
+   "days_to_depart": 45,
    "depart": "2026-11-25",
    "from": "SEA",
    "google_history": [
-    [
-     "2026-08-11",
-     333
-    ],
     [
      "2026-08-12",
      318
@@ -262,7 +258,11 @@
     ],
     [
      "2026-10-10",
-     452
+     432
+    ],
+    [
+     "2026-10-11",
+     432
     ]
    ],
    "grid": {
@@ -367,11 +367,15 @@
     [
      "2026-10-10",
      683
+    ],
+    [
+     "2026-10-11",
+     683
     ]
    ],
    "id": "sea-den-2026-11-25",
    "level": "high",
-   "low": 452,
+   "low": 432,
    "name": "Thanksgiving",
    "nonstop": true,
    "options": [
@@ -382,7 +386,7 @@
      "depart": "2026-11-25 20:40",
      "flight": "WN 3824",
      "minutes": 160,
-     "price": 452,
+     "price": 432,
      "stops": 0
     },
     {
@@ -392,7 +396,17 @@
      "depart": "2026-11-25 05:15",
      "flight": "WN 4956",
      "minutes": 155,
-     "price": 537,
+     "price": 517,
+     "stops": 0
+    },
+    {
+     "airline": "Southwest",
+     "alaska": false,
+     "arrive": "2026-11-25 17:55",
+     "depart": "2026-11-25 14:30",
+     "flight": "WN 3823",
+     "minutes": 145,
+     "price": 575,
      "stops": 0
     },
     {
@@ -402,7 +416,7 @@
      "depart": "2026-11-25 19:04",
      "flight": "UA 1218",
      "minutes": 161,
-     "price": 589,
+     "price": 588,
      "stops": 0
     },
     {
@@ -416,23 +430,13 @@
      "stops": 0
     },
     {
-     "airline": "Southwest",
-     "alaska": false,
-     "arrive": "2026-11-25 17:55",
-     "depart": "2026-11-25 14:30",
-     "flight": "WN 3823",
-     "minutes": 145,
-     "price": 595,
-     "stops": 0
-    },
-    {
      "airline": "United",
      "alaska": false,
      "arrive": "2026-11-25 08:42",
      "depart": "2026-11-25 05:05",
      "flight": "UA 757",
      "minutes": 157,
-     "price": 614,
+     "price": 613,
      "stops": 0
     }
    ],
