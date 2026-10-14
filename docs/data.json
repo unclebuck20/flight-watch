@@ -1,29 +1,25 @@
 {
  "meta": {
-  "built": "2026-10-13T20:16+00:00",
+  "built": "2026-10-14T18:41+00:00",
   "companion_cost": 122,
-  "searches_left": 217,
-  "today": "2026-10-13"
+  "searches_left": 216,
+  "today": "2026-10-14"
  },
  "trips": [
   {
    "active": true,
-   "alaska": 418,
+   "alaska": 398,
    "basis": "Alaska",
    "book_by": "2026-10-10",
-   "checked": "2026-10-13",
+   "checked": "2026-10-14",
    "companion": true,
-   "cost_note": "Alaska $418 + $122 companion",
-   "cost_two": 540,
-   "days_to_deadline": -3,
-   "days_to_depart": 43,
+   "cost_note": "Alaska $398 + $122 companion",
+   "cost_two": 520,
+   "days_to_deadline": -4,
+   "days_to_depart": 42,
    "depart": "2026-11-25",
    "from": "SEA",
    "google_history": [
-    [
-     "2026-08-14",
-     333
-    ],
     [
      "2026-08-15",
      293
@@ -262,7 +258,11 @@
     ],
     [
      "2026-10-13",
-     418
+     373
+    ],
+    [
+     "2026-10-14",
+     398
     ]
    ],
    "grid": {
@@ -379,14 +379,28 @@
     [
      "2026-10-13",
      418
+    ],
+    [
+     "2026-10-14",
+     398
     ]
    ],
    "id": "sea-den-2026-11-25",
    "level": "high",
-   "low": 418,
+   "low": 398,
    "name": "Thanksgiving",
    "nonstop": true,
    "options": [
+    {
+     "airline": "Alaska",
+     "alaska": true,
+     "arrive": "2026-11-25 23:59",
+     "depart": "2026-11-25 20:16",
+     "flight": "AS 440",
+     "minutes": 163,
+     "price": 398,
+     "stops": 0
+    },
     {
      "airline": "Alaska",
      "alaska": true,
@@ -394,7 +408,7 @@
      "depart": "2026-11-25 07:37",
      "flight": "AS 682",
      "minutes": 164,
-     "price": 418,
+     "price": 415,
      "stops": 0
     },
     {
@@ -404,17 +418,7 @@
      "depart": "2026-11-25 14:13",
      "flight": "AS 421",
      "minutes": 160,
-     "price": 418,
-     "stops": 0
-    },
-    {
-     "airline": "Alaska",
-     "alaska": true,
-     "arrive": "2026-11-25 23:59",
-     "depart": "2026-11-25 20:16",
-     "flight": "AS 440",
-     "minutes": 163,
-     "price": 418,
+     "price": 415,
      "stops": 0
     },
     {
@@ -424,7 +428,7 @@
      "depart": "2026-11-25 17:17",
      "flight": "AS 310",
      "minutes": 160,
-     "price": 435,
+     "price": 415,
      "stops": 0
     },
     {
@@ -434,7 +438,7 @@
      "depart": "2026-11-25 10:13",
      "flight": "AS 535",
      "minutes": 165,
-     "price": 469,
+     "price": 449,
      "stops": 0
     },
     {
