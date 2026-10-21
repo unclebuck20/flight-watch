@@ -1,9 +1,9 @@
 {
  "sea-den-2026-11-25": {
   "basis": "Alaska",
-  "checked": "2026-10-20",
-  "cost_note": "Alaska $328 + $122 companion",
-  "cost_two": 450,
+  "checked": "2026-10-21",
+  "cost_note": "Alaska $323 + $122 companion",
+  "cost_two": 445,
   "grid": {
    "checked": "2026-10-19",
    "rows": [
@@ -60,12 +60,8 @@
   },
   "last_verdict": "BUY",
   "latest": {
-   "alaska": 328,
+   "alaska": 323,
    "google_history": [
-    [
-     1787295600,
-     293
-    ],
     [
      1787382000,
      293
@@ -305,32 +301,16 @@
     [
      1792479600,
      310
+    ],
+    [
+     1792566000,
+     323
     ]
    ],
    "level": "typical",
-   "low": 310,
+   "low": 323,
    "n_options": 17,
    "options": [
-    {
-     "airline": "United",
-     "alaska": false,
-     "arrive": "2026-11-25 22:45",
-     "depart": "2026-11-25 19:04",
-     "flight": "UA 1218",
-     "minutes": 161,
-     "price": 310,
-     "stops": 0
-    },
-    {
-     "airline": "United",
-     "alaska": false,
-     "arrive": "2026-11-25 08:42",
-     "depart": "2026-11-25 05:05",
-     "flight": "UA 757",
-     "minutes": 157,
-     "price": 315,
-     "stops": 0
-    },
     {
      "airline": "Alaska",
      "alaska": true,
@@ -338,7 +318,7 @@
      "depart": "2026-11-25 20:16",
      "flight": "AS 440",
      "minutes": 163,
-     "price": 328,
+     "price": 323,
      "stops": 0
     },
     {
@@ -348,17 +328,27 @@
      "depart": "2026-11-25 20:40",
      "flight": "WN 3824",
      "minutes": 160,
-     "price": 328,
+     "price": 348,
      "stops": 0
     },
     {
-     "airline": "Delta",
+     "airline": "United",
      "alaska": false,
-     "arrive": "2026-11-25 23:47",
-     "depart": "2026-11-25 19:59",
-     "flight": "DL 2851",
-     "minutes": 168,
-     "price": 367,
+     "arrive": "2026-11-25 08:42",
+     "depart": "2026-11-25 05:05",
+     "flight": "UA 757",
+     "minutes": 157,
+     "price": 349,
+     "stops": 0
+    },
+    {
+     "airline": "United",
+     "alaska": false,
+     "arrive": "2026-11-25 22:45",
+     "depart": "2026-11-25 19:04",
+     "flight": "UA 1218",
+     "minutes": 161,
+     "price": 349,
      "stops": 0
     },
     {
@@ -368,7 +358,17 @@
      "depart": "2026-11-25 16:37",
      "flight": "F9 1916",
      "minutes": 168,
-     "price": 368,
+     "price": 365,
+     "stops": 0
+    },
+    {
+     "airline": "Delta",
+     "alaska": false,
+     "arrive": "2026-11-25 23:47",
+     "depart": "2026-11-25 19:59",
+     "flight": "DL 2851",
+     "minutes": 168,
+     "price": 377,
      "stops": 0
     }
    ],
@@ -532,6 +532,13 @@
     "level": "typical",
     "low": 310,
     "tracked": 328
+   },
+   {
+    "alaska": 323,
+    "date": "2026-10-21",
+    "level": "typical",
+    "low": 323,
+    "tracked": 323
    }
   ],
   "reason": "Book-by deadline in 0 days. Take the best price available now.",
