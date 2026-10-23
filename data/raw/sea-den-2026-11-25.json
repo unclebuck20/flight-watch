@@ -59,101 +59,13 @@
  ],
  "best_flights": [
   {
-   "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
-   "carbon_emissions": {
-    "difference_percent": -5,
-    "this_flight": 200000,
-    "typical_for_this_route": 210000
-   },
-   "departure_token": "WyJDalJJVlZwS1F6VkpWemhpVGxsQlJXUk9VMEZDUnkwdExTMHRMUzB0TFMxd2FuSjFPRUZCUVVGQlIzSmhWalpGVGpSR2JHVkJFZ1pFVERJNE5URWFDd2ljZ3dJUUFob0RWVk5FT0J4d25JTUMiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkRMIiwiMjg1MSJdXV0=",
-   "extensions": [
-    "Checked baggage for a fee",
-    "Bag and fare conditions depend on the return flight"
-   ],
-   "flights": [
-    {
-     "airline": "Delta",
-     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
-     "airplane": "Airbus A220-300 Passenger",
-     "arrival_airport": {
-      "id": "DEN",
-      "name": "Denver International Airport",
-      "time": "2026-11-25 23:47"
-     },
-     "departure_airport": {
-      "id": "SEA",
-      "name": "Seattle-Tacoma International Airport",
-      "time": "2026-11-25 19:59"
-     },
-     "duration": 168,
-     "extensions": [
-      "Average legroom (31 in)",
-      "Free Wi-Fi",
-      "In-seat power & USB outlets",
-      "Live TV",
-      "Carbon emissions estimate: 199 kg"
-     ],
-     "flight_number": "DL 2851",
-     "legroom": "31 in",
-     "travel_class": "Economy"
-    }
-   ],
-   "price": 332,
-   "total_duration": 168,
-   "type": "Round trip"
-  },
-  {
-   "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
-   "carbon_emissions": {
-    "difference_percent": -31,
-    "this_flight": 144000,
-    "typical_for_this_route": 210000
-   },
-   "departure_token": "WyJDalJJVlZwS1F6VkpWemhpVGxsQlJXUk9VMEZDUnkwdExTMHRMUzB0TFMxd2FuSjFPRUZCUVVGQlIzSmhWalpGVGpSR2JHVkJFZ1ZCVXpRME1Cb0xDTmlYQWhBQ0dnTlZVMFE0SEhEWWx3ST0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkFTIiwiNDQwIl1dXQ==",
-   "extensions": [
-    "Checked baggage for a fee",
-    "Bag and fare conditions depend on the return flight"
-   ],
-   "flights": [
-    {
-     "airline": "Alaska",
-     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
-     "airplane": "Boeing 737",
-     "arrival_airport": {
-      "id": "DEN",
-      "name": "Denver International Airport",
-      "time": "2026-11-25 23:59"
-     },
-     "departure_airport": {
-      "id": "SEA",
-      "name": "Seattle-Tacoma International Airport",
-      "time": "2026-11-25 20:16"
-     },
-     "duration": 163,
-     "extensions": [
-      "Average legroom (31 in)",
-      "Wi-Fi for a fee",
-      "In-seat power & USB outlets",
-      "Stream media to your device",
-      "Carbon emissions estimate: 143 kg"
-     ],
-     "flight_number": "AS 440",
-     "legroom": "31 in",
-     "travel_class": "Economy"
-    }
-   ],
-   "price": 358,
-   "total_duration": 163,
-   "type": "Round trip"
-  },
-  {
    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
    "carbon_emissions": {
     "difference_percent": -43,
     "this_flight": 119000,
     "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJVlZwS1F6VkpWemhpVGxsQlJXUk9VMEZDUnkwdExTMHRMUzB0TFMxd2FuSjFPRUZCUVVGQlIzSmhWalpGVGpSR2JHVkJFZ1ZWUVRjMU54b0xDTHlZQWhBQ0dnTlZVMFE0SEhDOG1BST0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIlVBIiwiNzU3Il1dXQ==",
+   "departure_token": "WyJDalJJT1RjNVdsbERNbGR5U205QlIwRm9jM2RDUnkwdExTMHRMUzB0TFMxdmVXRjZNVUZCUVVGQlIzSmljSFIzVEU0elRGTkJFZ1ZWUVRjMU54b0xDUERkQVJBQ0dnTlZVMFE0SEhEdzNRRT0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIlVBIiwiNzU3Il1dXQ==",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -186,54 +98,8 @@
      "travel_class": "Economy"
     }
    ],
-   "price": 359,
+   "price": 284,
    "total_duration": 157,
-   "type": "Round trip"
-  }
- ],
- "other_flights": [
-  {
-   "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-   "carbon_emissions": {
-    "difference_percent": -30,
-    "this_flight": 146000,
-    "typical_for_this_route": 210000
-   },
-   "departure_token": "WyJDalJJVlZwS1F6VkpWemhpVGxsQlJXUk9VMEZDUnkwdExTMHRMUzB0TFMxd2FuSjFPRUZCUVVGQlIzSmhWalpGVGpSR2JHVkJFZ1pWUVRFeU1UZ2FDd2k4bUFJUUFob0RWVk5FT0J4d3ZKZ0MiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIlVBIiwiMTIxOCJdXV0=",
-   "extensions": [
-    "Checked baggage for a fee",
-    "Bag and fare conditions depend on the return flight"
-   ],
-   "flights": [
-    {
-     "airline": "United",
-     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-     "airplane": "Boeing 737",
-     "arrival_airport": {
-      "id": "DEN",
-      "name": "Denver International Airport",
-      "time": "2026-11-25 22:45"
-     },
-     "departure_airport": {
-      "id": "SEA",
-      "name": "Seattle-Tacoma International Airport",
-      "time": "2026-11-25 19:04"
-     },
-     "duration": 161,
-     "extensions": [
-      "Average legroom (30 in)",
-      "Wi-Fi for a fee",
-      "In-seat power & USB outlets",
-      "On-demand video",
-      "Carbon emissions estimate: 146 kg"
-     ],
-     "flight_number": "UA 1218",
-     "legroom": "30 in",
-     "travel_class": "Economy"
-    }
-   ],
-   "price": 359,
-   "total_duration": 161,
    "type": "Round trip"
   },
   {
@@ -243,7 +109,7 @@
     "this_flight": 140000,
     "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJVlZwS1F6VkpWemhpVGxsQlJXUk9VMEZDUnkwdExTMHRMUzB0TFMxd2FuSjFPRUZCUVVGQlIzSmhWalpGVGpSR2JHVkJFZ1pYVGpNNE1qUWFDd2lRcndJUUFob0RWVk5FT0J4d2tLOEMiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIldOIiwiMzgyNCJdXV0=",
+   "departure_token": "WyJDalJJT1RjNVdsbERNbGR5U205QlIwRm9jM2RDUnkwdExTMHRMUzB0TFMxdmVXRjZNVUZCUVVGQlIzSmljSFIzVEU0elRGTkJFZ1pYVGpNNE1qUWFDd2pvNkFFUUFob0RWVk5FT0J4dzZPZ0IiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIldOIiwiMzgyNCJdXV0=",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -276,52 +142,52 @@
      "travel_class": "Economy"
     }
    ],
-   "price": 388,
+   "price": 298,
    "total_duration": 160,
    "type": "Round trip"
   },
   {
-   "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+   "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
    "carbon_emissions": {
-    "difference_percent": -32,
-    "this_flight": 143000,
+    "difference_percent": -5,
+    "this_flight": 200000,
     "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJVlZwS1F6VkpWemhpVGxsQlJXUk9VMEZDUnkwdExTMHRMUzB0TFMxd2FuSjFPRUZCUVVGQlIzSmhWalpGVGpSR2JHVkJFZ1ZWUVRjeU5Sb0xDTGpEQWhBQ0dnTlZVMFE0SEhDNHd3ST0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIlVBIiwiNzI1Il1dXQ==",
+   "departure_token": "WyJDalJJT1RjNVdsbERNbGR5U205QlIwRm9jM2RDUnkwdExTMHRMUzB0TFMxdmVXRjZNVUZCUVVGQlIzSmljSFIzVEU0elRGTkJFZ1pFVERJNE5URWFDd2pZN3dFUUFob0RWVk5FT0J4dzJPOEIiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkRMIiwiMjg1MSJdXV0=",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
    ],
    "flights": [
     {
-     "airline": "United",
-     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-     "airplane": "Boeing 737",
+     "airline": "Delta",
+     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+     "airplane": "Airbus A220-300 Passenger",
      "arrival_airport": {
       "id": "DEN",
       "name": "Denver International Airport",
-      "time": "2026-11-25 19:30"
+      "time": "2026-11-25 23:47"
      },
      "departure_airport": {
       "id": "SEA",
       "name": "Seattle-Tacoma International Airport",
-      "time": "2026-11-25 15:49"
+      "time": "2026-11-25 19:59"
      },
-     "duration": 161,
+     "duration": 168,
      "extensions": [
-      "Average legroom (30 in)",
-      "Wi-Fi for a fee",
-      "In-seat power outlet",
-      "Stream media to your device",
-      "Carbon emissions estimate: 143 kg"
+      "Average legroom (31 in)",
+      "Free Wi-Fi",
+      "In-seat power & USB outlets",
+      "Live TV",
+      "Carbon emissions estimate: 199 kg"
      ],
-     "flight_number": "UA 725",
-     "legroom": "30 in",
+     "flight_number": "DL 2851",
+     "legroom": "31 in",
      "travel_class": "Economy"
     }
    ],
-   "price": 414,
-   "total_duration": 161,
+   "price": 307,
+   "total_duration": 168,
    "type": "Round trip"
   },
   {
@@ -331,7 +197,7 @@
     "this_flight": 124000,
     "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJVlZwS1F6VkpWemhpVGxsQlJXUk9VMEZDUnkwdExTMHRMUzB0TFMxd2FuSjFPRUZCUVVGQlIzSmhWalpGVGpSR2JHVkJFZ1ZCVXpZNE1ob0xDS1RTQWhBQ0dnTlZVMFE0SEhDazBnST0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkFTIiwiNjgyIl1dXQ==",
+   "departure_token": "WyJDalJJT1RjNVdsbERNbGR5U205QlIwRm9jM2RDUnkwdExTMHRMUzB0TFMxdmVXRjZNVUZCUVVGQlIzSmljSFIzVEU0elRGTkJFZ1ZCVXpZNE1ob0xDT1NUQWhBQ0dnTlZVMFE0SEhEa2t3ST0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkFTIiwiNjgyIl1dXQ==",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -364,8 +230,142 @@
      "travel_class": "Economy"
     }
    ],
-   "price": 433,
+   "price": 353,
    "total_duration": 164,
+   "type": "Round trip"
+  }
+ ],
+ "other_flights": [
+  {
+   "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+   "carbon_emissions": {
+    "difference_percent": -30,
+    "this_flight": 146000,
+    "typical_for_this_route": 210000
+   },
+   "departure_token": "WyJDalJJT1RjNVdsbERNbGR5U205QlIwRm9jM2RDUnkwdExTMHRMUzB0TFMxdmVXRjZNVUZCUVVGQlIzSmljSFIzVEU0elRGTkJFZ1pWUVRFeU1UZ2FDd2o4MlFFUUFob0RWVk5FT0J4dy9Oa0IiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIlVBIiwiMTIxOCJdXV0=",
+   "extensions": [
+    "Checked baggage for a fee",
+    "Bag and fare conditions depend on the return flight"
+   ],
+   "flights": [
+    {
+     "airline": "United",
+     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+     "airplane": "Boeing 737",
+     "arrival_airport": {
+      "id": "DEN",
+      "name": "Denver International Airport",
+      "time": "2026-11-25 22:45"
+     },
+     "departure_airport": {
+      "id": "SEA",
+      "name": "Seattle-Tacoma International Airport",
+      "time": "2026-11-25 19:04"
+     },
+     "duration": 161,
+     "extensions": [
+      "Average legroom (30 in)",
+      "Wi-Fi for a fee",
+      "In-seat power & USB outlets",
+      "On-demand video",
+      "Carbon emissions estimate: 146 kg"
+     ],
+     "flight_number": "UA 1218",
+     "legroom": "30 in",
+     "travel_class": "Economy"
+    }
+   ],
+   "price": 279,
+   "total_duration": 161,
+   "type": "Round trip"
+  },
+  {
+   "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+   "carbon_emissions": {
+    "difference_percent": -31,
+    "this_flight": 144000,
+    "typical_for_this_route": 210000
+   },
+   "departure_token": "WyJDalJJT1RjNVdsbERNbGR5U205QlIwRm9jM2RDUnkwdExTMHRMUzB0TFMxdmVXRjZNVUZCUVVGQlIzSmljSFIzVEU0elRGTkJFZ1ZCVXpRME1Cb0xDTGo0QVJBQ0dnTlZVMFE0SEhDNCtBRT0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkFTIiwiNDQwIl1dXQ==",
+   "extensions": [
+    "Checked baggage for a fee",
+    "Bag and fare conditions depend on the return flight"
+   ],
+   "flights": [
+    {
+     "airline": "Alaska",
+     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+     "airplane": "Boeing 737",
+     "arrival_airport": {
+      "id": "DEN",
+      "name": "Denver International Airport",
+      "time": "2026-11-25 23:59"
+     },
+     "departure_airport": {
+      "id": "SEA",
+      "name": "Seattle-Tacoma International Airport",
+      "time": "2026-11-25 20:16"
+     },
+     "duration": 163,
+     "extensions": [
+      "Average legroom (31 in)",
+      "Wi-Fi for a fee",
+      "In-seat power & USB outlets",
+      "Stream media to your device",
+      "Carbon emissions estimate: 143 kg"
+     ],
+     "flight_number": "AS 440",
+     "legroom": "31 in",
+     "travel_class": "Economy"
+    }
+   ],
+   "price": 318,
+   "total_duration": 163,
+   "type": "Round trip"
+  },
+  {
+   "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+   "carbon_emissions": {
+    "difference_percent": -32,
+    "this_flight": 143000,
+    "typical_for_this_route": 210000
+   },
+   "departure_token": "WyJDalJJT1RjNVdsbERNbGR5U205QlIwRm9jM2RDUnkwdExTMHRMUzB0TFMxdmVXRjZNVUZCUVVGQlIzSmljSFIzVEU0elRGTkJFZ1ZWUVRjeU5Sb0xDTENEQWhBQ0dnTlZVMFE0SEhDd2d3ST0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIlVBIiwiNzI1Il1dXQ==",
+   "extensions": [
+    "Checked baggage for a fee",
+    "Bag and fare conditions depend on the return flight"
+   ],
+   "flights": [
+    {
+     "airline": "United",
+     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+     "airplane": "Boeing 737",
+     "arrival_airport": {
+      "id": "DEN",
+      "name": "Denver International Airport",
+      "time": "2026-11-25 19:30"
+     },
+     "departure_airport": {
+      "id": "SEA",
+      "name": "Seattle-Tacoma International Airport",
+      "time": "2026-11-25 15:49"
+     },
+     "duration": 161,
+     "extensions": [
+      "Average legroom (30 in)",
+      "Wi-Fi for a fee",
+      "In-seat power outlet",
+      "Stream media to your device",
+      "Carbon emissions estimate: 143 kg"
+     ],
+     "flight_number": "UA 725",
+     "legroom": "30 in",
+     "travel_class": "Economy"
+    }
+   ],
+   "price": 332,
+   "total_duration": 161,
    "type": "Round trip"
   },
   {
@@ -375,7 +375,7 @@
     "this_flight": 105000,
     "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJVlZwS1F6VkpWemhpVGxsQlJXUk9VMEZDUnkwdExTMHRMUzB0TFMxd2FuSjFPRUZCUVVGQlIzSmhWalpGVGpSR2JHVkJFZ1pHT1RFNU1UWWFDd2lZMWdJUUFob0RWVk5FT0J4d21OWUMiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkY5IiwiMTkxNiJdXV0=",
+   "departure_token": "WyJDalJJT1RjNVdsbERNbGR5U205QlIwRm9jM2RDUnkwdExTMHRMUzB0TFMxdmVXRjZNVUZCUVVGQlIzSmljSFIzVEU0elRGTkJFZ1pHT1RFNU1UWWFDd2pZbHdJUUFob0RWVk5FT0J4dzJKY0MiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkY5IiwiMTkxNiJdXV0=",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -405,7 +405,7 @@
      "travel_class": "Economy"
     }
    ],
-   "price": 438,
+   "price": 358,
    "total_duration": 168,
    "type": "Round trip"
   },
@@ -416,7 +416,7 @@
     "this_flight": 146000,
     "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJVlZwS1F6VkpWemhpVGxsQlJXUk9VMEZDUnkwdExTMHRMUzB0TFMxd2FuSjFPRUZCUVVGQlIzSmhWalpGVGpSR2JHVkJFZ1pWUVRFMU1EVWFDd2lJN0FJUUFob0RWVk5FT0J4d2lPd0MiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIlVBIiwiMTUwNSJdXV0=",
+   "departure_token": "WyJDalJJT1RjNVdsbERNbGR5U205QlIwRm9jM2RDUnkwdExTMHRMUzB0TFMxdmVXRjZNVUZCUVVGQlIzSmljSFIzVEU0elRGTkJFZ1pWUVRFMU1EVWFDd2pJclFJUUFob0RWVk5FT0J4d3lLMEMiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIlVBIiwiMTUwNSJdXV0=",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -449,7 +449,7 @@
      "travel_class": "Economy"
     }
    ],
-   "price": 466,
+   "price": 386,
    "total_duration": 164,
    "type": "Round trip"
   },
@@ -460,7 +460,7 @@
     "this_flight": 144000,
     "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJVlZwS1F6VkpWemhpVGxsQlJXUk9VMEZDUnkwdExTMHRMUzB0TFMxd2FuSjFPRUZCUVVGQlIzSmhWalpGVGpSR2JHVkJFZ1ZCVXpVek5Sb0xDSWpzQWhBQ0dnTlZVMFE0SEhDSTdBST0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkFTIiwiNTM1Il1dXQ==",
+   "departure_token": "WyJDalJJT1RjNVdsbERNbGR5U205QlIwRm9jM2RDUnkwdExTMHRMUzB0TFMxdmVXRjZNVUZCUVVGQlIzSmljSFIzVEU0elRGTkJFZ1ZCVXpVek5Sb0xDTWl0QWhBQ0dnTlZVMFE0SEhESXJRST0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkFTIiwiNTM1Il1dXQ==",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -493,7 +493,7 @@
      "travel_class": "Economy"
     }
    ],
-   "price": 466,
+   "price": 386,
    "total_duration": 165,
    "type": "Round trip"
   },
@@ -504,51 +504,7 @@
     "this_flight": 144000,
     "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJVlZwS1F6VkpWemhpVGxsQlJXUk9VMEZDUnkwdExTMHRMUzB0TFMxd2FuSjFPRUZCUVVGQlIzSmhWalpGVGpSR2JHVkJFZ1ZCVXpReU1Sb0xDSWpzQWhBQ0dnTlZVMFE0SEhDSTdBST0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkFTIiwiNDIxIl1dXQ==",
-   "extensions": [
-    "Checked baggage for a fee",
-    "Bag and fare conditions depend on the return flight"
-   ],
-   "flights": [
-    {
-     "airline": "Alaska",
-     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
-     "airplane": "Boeing 737",
-     "arrival_airport": {
-      "id": "DEN",
-      "name": "Denver International Airport",
-      "time": "2026-11-25 17:53"
-     },
-     "departure_airport": {
-      "id": "SEA",
-      "name": "Seattle-Tacoma International Airport",
-      "time": "2026-11-25 14:13"
-     },
-     "duration": 160,
-     "extensions": [
-      "Average legroom (31 in)",
-      "Wi-Fi for a fee",
-      "In-seat power & USB outlets",
-      "Stream media to your device",
-      "Carbon emissions estimate: 143 kg"
-     ],
-     "flight_number": "AS 421",
-     "legroom": "31 in",
-     "travel_class": "Economy"
-    }
-   ],
-   "price": 466,
-   "total_duration": 160,
-   "type": "Round trip"
-  },
-  {
-   "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
-   "carbon_emissions": {
-    "difference_percent": -31,
-    "this_flight": 144000,
-    "typical_for_this_route": 210000
-   },
-   "departure_token": "WyJDalJJVlZwS1F6VkpWemhpVGxsQlJXUk9VMEZDUnkwdExTMHRMUzB0TFMxd2FuSjFPRUZCUVVGQlIzSmhWalpGVGpSR2JHVkJFZ1ZCVXpNeE1Cb0xDSWpzQWhBQ0dnTlZVMFE0SEhDSTdBST0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkFTIiwiMzEwIl1dXQ==",
+   "departure_token": "WyJDalJJT1RjNVdsbERNbGR5U205QlIwRm9jM2RDUnkwdExTMHRMUzB0TFMxdmVXRjZNVUZCUVVGQlIzSmljSFIzVEU0elRGTkJFZ1ZCVXpNeE1Cb0xDTWl0QWhBQ0dnTlZVMFE0SEhESXJRST0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkFTIiwiMzEwIl1dXQ==",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -581,7 +537,7 @@
      "travel_class": "Economy"
     }
    ],
-   "price": 466,
+   "price": 386,
    "total_duration": 160,
    "type": "Round trip"
   },
@@ -592,7 +548,7 @@
     "this_flight": 200000,
     "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJVlZwS1F6VkpWemhpVGxsQlJXUk9VMEZDUnkwdExTMHRMUzB0TFMxd2FuSjFPRUZCUVVGQlIzSmhWalpGVGpSR2JHVkJFZ1pFVERFek5UZ2FDd2pBOUFJUUFob0RWVk5FT0J4d3dQUUMiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkRMIiwiMTM1OCJdXV0=",
+   "departure_token": "WyJDalJJT1RjNVdsbERNbGR5U205QlIwRm9jM2RDUnkwdExTMHRMUzB0TFMxdmVXRjZNVUZCUVVGQlIzSmljSFIzVEU0elRGTkJFZ1pFVERFek5UZ2FDd2ovdFFJUUFob0RWVk5FT0J4dy83VUMiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkRMIiwiMTM1OCJdXV0=",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -625,7 +581,7 @@
      "travel_class": "Economy"
     }
    ],
-   "price": 477,
+   "price": 397,
    "total_duration": 167,
    "type": "Round trip"
   },
@@ -636,7 +592,7 @@
     "this_flight": 200000,
     "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJVlZwS1F6VkpWemhpVGxsQlJXUk9VMEZDUnkwdExTMHRMUzB0TFMxd2FuSjFPRUZCUVVGQlIzSmhWalpGVGpSR2JHVkJFZ1pFVERJM05Ua2FDd2pBOUFJUUFob0RWVk5FT0J4d3dQUUMiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkRMIiwiMjc1OSJdXV0=",
+   "departure_token": "WyJDalJJT1RjNVdsbERNbGR5U205QlIwRm9jM2RDUnkwdExTMHRMUzB0TFMxdmVXRjZNVUZCUVVGQlIzSmljSFIzVEU0elRGTkJFZ1pFVERJM05Ua2FDd2ovdFFJUUFob0RWVk5FT0J4dy83VUMiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkRMIiwiMjc1OSJdXV0=",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -669,7 +625,7 @@
      "travel_class": "Economy"
     }
    ],
-   "price": 477,
+   "price": 397,
    "total_duration": 165,
    "type": "Round trip"
   },
@@ -680,7 +636,7 @@
     "this_flight": 123000,
     "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJVlZwS1F6VkpWemhpVGxsQlJXUk9VMEZDUnkwdExTMHRMUzB0TFMxd2FuSjFPRUZCUVVGQlIzSmhWalpGVGpSR2JHVkJFZ1pYVGpRNU5UWWFDd2o0Z1FNUUFob0RWVk5FT0J4dytJRUQiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIldOIiwiNDk1NiJdXV0=",
+   "departure_token": "WyJDalJJT1RjNVdsbERNbGR5U205QlIwRm9jM2RDUnkwdExTMHRMUzB0TFMxdmVXRjZNVUZCUVVGQlIzSmljSFIzVEU0elRGTkJFZ1pYVGpRNU5UWWFDd2o0dGdJUUFob0RWVk5FT0J4dytMWUMiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIldOIiwiNDk1NiJdXV0=",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -713,7 +669,7 @@
      "travel_class": "Economy"
     }
    ],
-   "price": 494,
+   "price": 398,
    "total_duration": 155,
    "type": "Round trip"
   },
@@ -724,7 +680,7 @@
     "this_flight": 143000,
     "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJVlZwS1F6VkpWemhpVGxsQlJXUk9VMEZDUnkwdExTMHRMUzB0TFMxd2FuSjFPRUZCUVVGQlIzSmhWalpGVGpSR2JHVkJFZ1pWUVRFMU16UWFDd2o0Z1FNUUFob0RWVk5FT0J4dytJRUQiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIlVBIiwiMTUzNCJdXV0=",
+   "departure_token": "WyJDalJJT1RjNVdsbERNbGR5U205QlIwRm9jM2RDUnkwdExTMHRMUzB0TFMxdmVXRjZNVUZCUVVGQlIzSmljSFIzVEU0elRGTkJFZ1pWUVRFMU16UWFDd2k0d3dJUUFob0RWVk5FT0J4d3VNTUMiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIlVBIiwiMTUzNCJdXV0=",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -758,8 +714,52 @@
      "travel_class": "Economy"
     }
    ],
-   "price": 494,
+   "price": 414,
    "total_duration": 161,
+   "type": "Round trip"
+  },
+  {
+   "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+   "carbon_emissions": {
+    "difference_percent": -31,
+    "this_flight": 144000,
+    "typical_for_this_route": 210000
+   },
+   "departure_token": "WyJDalJJT1RjNVdsbERNbGR5U205QlIwRm9jM2RDUnkwdExTMHRMUzB0TFMxdmVXRjZNVUZCUVVGQlIzSmljSFIzVEU0elRGTkJFZ1ZCVXpReU1Sb0xDSlRQQWhBQ0dnTlZVMFE0SEhDVXp3ST0iLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIkFTIiwiNDIxIl1dXQ==",
+   "extensions": [
+    "Checked baggage for a fee",
+    "Bag and fare conditions depend on the return flight"
+   ],
+   "flights": [
+    {
+     "airline": "Alaska",
+     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+     "airplane": "Boeing 737",
+     "arrival_airport": {
+      "id": "DEN",
+      "name": "Denver International Airport",
+      "time": "2026-11-25 17:53"
+     },
+     "departure_airport": {
+      "id": "SEA",
+      "name": "Seattle-Tacoma International Airport",
+      "time": "2026-11-25 14:13"
+     },
+     "duration": 160,
+     "extensions": [
+      "Average legroom (31 in)",
+      "Wi-Fi for a fee",
+      "In-seat power & USB outlets",
+      "Stream media to your device",
+      "Carbon emissions estimate: 143 kg"
+     ],
+     "flight_number": "AS 421",
+     "legroom": "31 in",
+     "travel_class": "Economy"
+    }
+   ],
+   "price": 429,
+   "total_duration": 160,
    "type": "Round trip"
   },
   {
@@ -769,7 +769,7 @@
     "this_flight": 123000,
     "typical_for_this_route": 210000
    },
-   "departure_token": "WyJDalJJVlZwS1F6VkpWemhpVGxsQlJXUk9VMEZDUnkwdExTMHRMUzB0TFMxd2FuSjFPRUZCUVVGQlIzSmhWalpGVGpSR2JHVkJFZ1pYVGpNNE1qTWFDd2pBbkFNUUFob0RWVk5FT0J4d3dKd0QiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIldOIiwiMzgyMyJdXV0=",
+   "departure_token": "WyJDalJJT1RjNVdsbERNbGR5U205QlIwRm9jM2RDUnkwdExTMHRMUzB0TFMxdmVXRjZNVUZCUVVGQlIzSmljSFIzVEU0elRGTkJFZ1pYVGpNNE1qTWFDd2lBM2dJUUFob0RWVk5FT0J4d2dONEMiLFtbIlNFQSIsIjIwMjYtMTEtMjUiLCJERU4iLG51bGwsIldOIiwiMzgyMyJdXV0=",
    "extensions": [
     "Checked baggage for a fee",
     "Bag and fare conditions depend on the return flight"
@@ -802,18 +802,14 @@
      "travel_class": "Economy"
     }
    ],
-   "price": 528,
+   "price": 448,
    "total_duration": 145,
    "type": "Round trip"
   }
  ],
  "price_insights": {
-  "lowest_price": 332,
+  "lowest_price": 279,
   "price_history": [
-   [
-    1787468400,
-    293
-   ],
    [
     1787554800,
     293
@@ -1052,26 +1048,30 @@
    ],
    [
     1792652400,
-    332
+    252
+   ],
+   [
+    1792738800,
+    279
    ]
   ],
   "price_level": "typical",
   "typical_price_range": [
-   110,
+   120,
    335
   ]
  },
  "search_metadata": {
-  "created_at": "2026-10-22 18:36:17 UTC",
+  "created_at": "2026-10-23 18:26:34 UTC",
   "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhogEgoyMDI2LTExLTI1KABqBwgBEgNTRUFyBwgBEgNERU4aIBIKMjAyNi0xMS0yOSgAagcIARIDREVOcgcIARIDU0VBQAFIAXABmAEB&tfu=EgIIAQ",
-  "id": "6ada57a1dafa5fc358a6d2a1",
-  "json_endpoint": "https://serpapi.com/searches/dwKU9lHz5aJO8fth-eNIhW0ShB5d_hvLW-6A3CQOU9k/6ada57a1dafa5fc358a6d2a1.json",
-  "markdown_endpoint": "https://serpapi.com/searches/dwKU9lHz5aJO8fth-eNIhW0ShB5d_hvLW-6A3CQOU9k/6ada57a1dafa5fc358a6d2a1.md",
-  "prettify_html_file": "https://serpapi.com/searches/dwKU9lHz5aJO8fth-eNIhW0ShB5d_hvLW-6A3CQOU9k/6ada57a1dafa5fc358a6d2a1.prettify",
-  "processed_at": "2026-10-22 18:36:17 UTC",
-  "raw_html_file": "https://serpapi.com/searches/dwKU9lHz5aJO8fth-eNIhW0ShB5d_hvLW-6A3CQOU9k/6ada57a1dafa5fc358a6d2a1.html",
+  "id": "6adba6da739fd72a31cb1596",
+  "json_endpoint": "https://serpapi.com/searches/kSs4eGYQ8NGEscWktYEsPb28z7ytGZsWV6ecKbF_0aY/6adba6da739fd72a31cb1596.json",
+  "markdown_endpoint": "https://serpapi.com/searches/kSs4eGYQ8NGEscWktYEsPb28z7ytGZsWV6ecKbF_0aY/6adba6da739fd72a31cb1596.md",
+  "prettify_html_file": "https://serpapi.com/searches/kSs4eGYQ8NGEscWktYEsPb28z7ytGZsWV6ecKbF_0aY/6adba6da739fd72a31cb1596.prettify",
+  "processed_at": "2026-10-23 18:26:34 UTC",
+  "raw_html_file": "https://serpapi.com/searches/kSs4eGYQ8NGEscWktYEsPb28z7ytGZsWV6ecKbF_0aY/6adba6da739fd72a31cb1596.html",
   "status": "Success",
-  "total_time_taken": 1.51
+  "total_time_taken": 2.12
  },
  "search_parameters": {
   "adults": 1,
