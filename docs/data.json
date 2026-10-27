@@ -1,29 +1,25 @@
 {
  "meta": {
-  "built": "2026-10-26T19:59+00:00",
+  "built": "2026-10-27T19:27+00:00",
   "companion_cost": 122,
-  "searches_left": 193,
-  "today": "2026-10-26"
+  "searches_left": 192,
+  "today": "2026-10-27"
  },
  "trips": [
   {
    "active": true,
-   "alaska": 683,
+   "alaska": 748,
    "basis": "Alaska",
    "book_by": "2026-10-10",
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "companion": true,
-   "cost_note": "Alaska $683 + $122 companion",
-   "cost_two": 805,
-   "days_to_deadline": -16,
-   "days_to_depart": 30,
+   "cost_note": "Alaska $748 + $122 companion",
+   "cost_two": 870,
+   "days_to_deadline": -17,
+   "days_to_depart": 29,
    "depart": "2026-11-25",
    "from": "SEA",
    "google_history": [
-    [
-     "2026-08-27",
-     313
-    ],
     [
      "2026-08-28",
      313
@@ -262,7 +258,11 @@
     ],
     [
      "2026-10-26",
-     383
+     363
+    ],
+    [
+     "2026-10-27",
+     422
     ]
    ],
    "grid": {
@@ -431,22 +431,26 @@
     [
      "2026-10-26",
      683
+    ],
+    [
+     "2026-10-27",
+     748
     ]
    ],
    "id": "sea-den-2026-11-25",
    "level": "high",
-   "low": 383,
+   "low": 422,
    "name": "Thanksgiving",
    "nonstop": true,
    "options": [
     {
-     "airline": "Frontier",
+     "airline": "United",
      "alaska": false,
-     "arrive": "2026-11-25 20:25",
-     "depart": "2026-11-25 16:37",
-     "flight": "F9 1916",
-     "minutes": 168,
-     "price": 383,
+     "arrive": "2026-11-25 22:45",
+     "depart": "2026-11-25 19:04",
+     "flight": "UA 1218",
+     "minutes": 161,
+     "price": 422,
      "stops": 0
     },
     {
@@ -456,7 +460,7 @@
      "depart": "2026-11-25 20:40",
      "flight": "WN 3824",
      "minutes": 160,
-     "price": 458,
+     "price": 438,
      "stops": 0
     },
     {
@@ -466,17 +470,7 @@
      "depart": "2026-11-25 05:05",
      "flight": "UA 757",
      "minutes": 157,
-     "price": 484,
-     "stops": 0
-    },
-    {
-     "airline": "United",
-     "alaska": false,
-     "arrive": "2026-11-25 22:45",
-     "depart": "2026-11-25 19:04",
-     "flight": "UA 1218",
-     "minutes": 161,
-     "price": 484,
+     "price": 467,
      "stops": 0
     },
     {
@@ -486,7 +480,7 @@
      "depart": "2026-11-25 15:49",
      "flight": "UA 725",
      "minutes": 161,
-     "price": 503,
+     "price": 494,
      "stops": 0
     },
     {
@@ -496,7 +490,17 @@
      "depart": "2026-11-25 08:30",
      "flight": "UA 1505",
      "minutes": 164,
-     "price": 563,
+     "price": 533,
+     "stops": 0
+    },
+    {
+     "airline": "United",
+     "alaska": false,
+     "arrive": "2026-11-25 16:26",
+     "depart": "2026-11-25 12:45",
+     "flight": "UA 1534",
+     "minutes": 161,
+     "price": 588,
      "stops": 0
     }
    ],
