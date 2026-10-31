@@ -1,9 +1,9 @@
 {
  "sea-den-2026-11-25": {
   "basis": "Alaska",
-  "checked": "2026-10-30",
-  "cost_note": "Alaska $797 + $122 companion",
-  "cost_two": 919,
+  "checked": "2026-10-31",
+  "cost_note": "Alaska $867 + $122 companion",
+  "cost_two": 989,
   "grid": {
    "checked": "2026-10-26",
    "rows": [
@@ -60,12 +60,8 @@
   },
   "last_verdict": "BUY",
   "latest": {
-   "alaska": 797,
+   "alaska": 867,
    "google_history": [
-    [
-     1788159600,
-     292
-    ],
     [
      1788246000,
      292
@@ -304,11 +300,15 @@
     ],
     [
      1793343600,
-     431
+     417
+    ],
+    [
+     1793430000,
+     392
     ]
    ],
    "level": "high",
-   "low": 431,
+   "low": 392,
    "n_options": 17,
    "options": [
     {
@@ -318,17 +318,7 @@
      "depart": "2026-11-25 05:05",
      "flight": "UA 757",
      "minutes": 157,
-     "price": 431,
-     "stops": 0
-    },
-    {
-     "airline": "United",
-     "alaska": false,
-     "arrive": "2026-11-25 22:45",
-     "depart": "2026-11-25 19:04",
-     "flight": "UA 1218",
-     "minutes": 161,
-     "price": 448,
+     "price": 392,
      "stops": 0
     },
     {
@@ -338,7 +328,37 @@
      "depart": "2026-11-25 15:49",
      "flight": "UA 725",
      "minutes": 161,
-     "price": 451,
+     "price": 423,
+     "stops": 0
+    },
+    {
+     "airline": "United",
+     "alaska": false,
+     "arrive": "2026-11-25 22:45",
+     "depart": "2026-11-25 19:04",
+     "flight": "UA 1218",
+     "minutes": 161,
+     "price": 423,
+     "stops": 0
+    },
+    {
+     "airline": "United",
+     "alaska": false,
+     "arrive": "2026-11-25 12:14",
+     "depart": "2026-11-25 08:30",
+     "flight": "UA 1505",
+     "minutes": 164,
+     "price": 473,
+     "stops": 0
+    },
+    {
+     "airline": "United",
+     "alaska": false,
+     "arrive": "2026-11-25 16:26",
+     "depart": "2026-11-25 12:45",
+     "flight": "UA 1534",
+     "minutes": 161,
+     "price": 484,
      "stops": 0
     },
     {
@@ -349,26 +369,6 @@
      "flight": "WN 3824",
      "minutes": 160,
      "price": 507,
-     "stops": 0
-    },
-    {
-     "airline": "United",
-     "alaska": false,
-     "arrive": "2026-11-25 12:14",
-     "depart": "2026-11-25 08:30",
-     "flight": "UA 1505",
-     "minutes": 164,
-     "price": 545,
-     "stops": 0
-    },
-    {
-     "airline": "United",
-     "alaska": false,
-     "arrive": "2026-11-25 16:26",
-     "depart": "2026-11-25 12:45",
-     "flight": "UA 1534",
-     "minutes": 161,
-     "price": 550,
      "stops": 0
     }
    ],
@@ -602,6 +602,13 @@
     "level": "high",
     "low": 431,
     "tracked": 797
+   },
+   {
+    "alaska": 867,
+    "date": "2026-10-31",
+    "level": "high",
+    "low": 392,
+    "tracked": 867
    }
   ],
   "reason": "Book-by deadline in 0 days. Take the best price available now.",
