@@ -1,29 +1,25 @@
 {
  "meta": {
-  "built": "2026-10-31T18:37+00:00",
+  "built": "2026-11-01T18:58+00:00",
   "companion_cost": 122,
-  "searches_left": 249,
-  "today": "2026-10-31"
+  "searches_left": 248,
+  "today": "2026-11-01"
  },
  "trips": [
   {
    "active": true,
-   "alaska": 867,
+   "alaska": 917,
    "basis": "Alaska",
    "book_by": "2026-10-10",
-   "checked": "2026-10-31",
+   "checked": "2026-11-01",
    "companion": true,
-   "cost_note": "Alaska $867 + $122 companion",
-   "cost_two": 989,
-   "days_to_deadline": -21,
-   "days_to_depart": 25,
+   "cost_note": "Alaska $917 + $122 companion",
+   "cost_two": 1039,
+   "days_to_deadline": -22,
+   "days_to_depart": 24,
    "depart": "2026-11-25",
    "from": "SEA",
    "google_history": [
-    [
-     "2026-09-01",
-     292
-    ],
     [
      "2026-09-02",
      313
@@ -263,6 +259,10 @@
     [
      "2026-10-31",
      392
+    ],
+    [
+     "2026-11-01",
+     392
     ]
    ],
    "grid": {
@@ -451,6 +451,10 @@
     [
      "2026-10-31",
      867
+    ],
+    [
+     "2026-11-01",
+     917
     ]
    ],
    "id": "sea-den-2026-11-25",
@@ -492,21 +496,11 @@
     {
      "airline": "United",
      "alaska": false,
-     "arrive": "2026-11-25 12:14",
-     "depart": "2026-11-25 08:30",
-     "flight": "UA 1505",
-     "minutes": 164,
-     "price": 473,
-     "stops": 0
-    },
-    {
-     "airline": "United",
-     "alaska": false,
      "arrive": "2026-11-25 16:26",
      "depart": "2026-11-25 12:45",
      "flight": "UA 1534",
      "minutes": 161,
-     "price": 484,
+     "price": 501,
      "stops": 0
     },
     {
@@ -517,6 +511,16 @@
      "flight": "WN 3824",
      "minutes": 160,
      "price": 507,
+     "stops": 0
+    },
+    {
+     "airline": "United",
+     "alaska": false,
+     "arrive": "2026-11-25 12:14",
+     "depart": "2026-11-25 08:30",
+     "flight": "UA 1505",
+     "minutes": 164,
+     "price": 512,
      "stops": 0
     }
    ],
