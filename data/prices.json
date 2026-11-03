@@ -1,7 +1,7 @@
 {
  "sea-den-2026-11-25": {
   "basis": "Alaska",
-  "checked": "2026-11-02",
+  "checked": "2026-11-03",
   "cost_note": "Alaska $917 + $122 companion",
   "cost_two": 1039,
   "grid": {
@@ -62,10 +62,6 @@
   "latest": {
    "alaska": 917,
    "google_history": [
-    [
-     1788418800,
-     313
-    ],
     [
      1788505200,
      313
@@ -304,23 +300,17 @@
     ],
     [
      1793606400,
-     380
+     338
+    ],
+    [
+     1793692800,
+     421
     ]
    ],
    "level": "high",
-   "low": 380,
+   "low": 421,
    "n_options": 17,
    "options": [
-    {
-     "airline": "Frontier",
-     "alaska": false,
-     "arrive": "2026-11-25 20:25",
-     "depart": "2026-11-25 16:37",
-     "flight": "F9 1916",
-     "minutes": 168,
-     "price": 380,
-     "stops": 0
-    },
     {
      "airline": "United",
      "alaska": false,
@@ -328,17 +318,7 @@
      "depart": "2026-11-25 05:05",
      "flight": "UA 757",
      "minutes": 157,
-     "price": 404,
-     "stops": 0
-    },
-    {
-     "airline": "United",
-     "alaska": false,
-     "arrive": "2026-11-25 22:45",
-     "depart": "2026-11-25 19:04",
-     "flight": "UA 1218",
-     "minutes": 161,
-     "price": 422,
+     "price": 421,
      "stops": 0
     },
     {
@@ -348,7 +328,17 @@
      "depart": "2026-11-25 15:49",
      "flight": "UA 725",
      "minutes": 161,
-     "price": 438,
+     "price": 471,
+     "stops": 0
+    },
+    {
+     "airline": "United",
+     "alaska": false,
+     "arrive": "2026-11-25 22:45",
+     "depart": "2026-11-25 19:04",
+     "flight": "UA 1218",
+     "minutes": 161,
+     "price": 471,
      "stops": 0
     },
     {
@@ -358,7 +348,7 @@
      "depart": "2026-11-25 12:45",
      "flight": "UA 1534",
      "minutes": 161,
-     "price": 502,
+     "price": 503,
      "stops": 0
     },
     {
@@ -369,6 +359,16 @@
      "flight": "WN 3824",
      "minutes": 160,
      "price": 507,
+     "stops": 0
+    },
+    {
+     "airline": "United",
+     "alaska": false,
+     "arrive": "2026-11-25 12:14",
+     "depart": "2026-11-25 08:30",
+     "flight": "UA 1505",
+     "minutes": 164,
+     "price": 586,
      "stops": 0
     }
    ],
@@ -622,6 +622,13 @@
     "date": "2026-11-02",
     "level": "high",
     "low": 380,
+    "tracked": 917
+   },
+   {
+    "alaska": 917,
+    "date": "2026-11-03",
+    "level": "high",
+    "low": 421,
     "tracked": 917
    }
   ],
