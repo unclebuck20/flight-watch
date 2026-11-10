@@ -1,9 +1,9 @@
 {
  "meta": {
-  "built": "2026-11-09T23:28+00:00",
+  "built": "2026-11-10T20:53+00:00",
   "companion_cost": 122,
-  "searches_left": 229,
-  "today": "2026-11-09"
+  "searches_left": 226,
+  "today": "2026-11-10"
  },
  "trips": [
   {
@@ -11,19 +11,15 @@
    "alaska": 956,
    "basis": "Alaska",
    "book_by": "2026-10-10",
-   "checked": "2026-11-09",
+   "checked": "2026-11-10",
    "companion": true,
    "cost_note": "Alaska $956 + $122 companion",
    "cost_two": 1078,
-   "days_to_deadline": -30,
-   "days_to_depart": 16,
+   "days_to_deadline": -31,
+   "days_to_depart": 15,
    "depart": "2026-11-25",
    "from": "SEA",
    "google_history": [
-    [
-     "2026-09-10",
-     362
-    ],
     [
      "2026-09-11",
      406
@@ -262,7 +258,11 @@
     ],
     [
      "2026-11-09",
-     515
+     400
+    ],
+    [
+     "2026-11-10",
+     444
     ]
    ],
    "grid": {
@@ -487,22 +487,26 @@
     [
      "2026-11-09",
      956
+    ],
+    [
+     "2026-11-10",
+     956
     ]
    ],
    "id": "sea-den-2026-11-25",
    "level": "high",
-   "low": 515,
+   "low": 444,
    "name": "Thanksgiving",
    "nonstop": true,
    "options": [
     {
-     "airline": "United",
+     "airline": "Frontier",
      "alaska": false,
-     "arrive": "2026-11-25 16:26",
-     "depart": "2026-11-25 12:45",
-     "flight": "UA 1534",
-     "minutes": 161,
-     "price": 515,
+     "arrive": "2026-11-25 20:25",
+     "depart": "2026-11-25 16:37",
+     "flight": "F9 1916",
+     "minutes": 168,
+     "price": 444,
      "stops": 0
     },
     {
@@ -518,9 +522,9 @@
     {
      "airline": "United",
      "alaska": false,
-     "arrive": "2026-11-25 22:45",
-     "depart": "2026-11-25 19:04",
-     "flight": "UA 1218",
+     "arrive": "2026-11-25 16:26",
+     "depart": "2026-11-25 12:45",
+     "flight": "UA 1534",
      "minutes": 161,
      "price": 516,
      "stops": 0
@@ -532,17 +536,17 @@
      "depart": "2026-11-25 15:49",
      "flight": "UA 725",
      "minutes": 161,
-     "price": 544,
+     "price": 533,
      "stops": 0
     },
     {
-     "airline": "Delta",
+     "airline": "United",
      "alaska": false,
-     "arrive": "2026-11-25 17:37",
-     "depart": "2026-11-25 13:52",
-     "flight": "DL 2759",
-     "minutes": 165,
-     "price": 578,
+     "arrive": "2026-11-25 22:45",
+     "depart": "2026-11-25 19:04",
+     "flight": "UA 1218",
+     "minutes": 161,
+     "price": 566,
      "stops": 0
     },
     {

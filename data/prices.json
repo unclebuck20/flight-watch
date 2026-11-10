@@ -1,7 +1,7 @@
 {
  "sea-den-2026-11-25": {
   "basis": "Alaska",
-  "checked": "2026-11-09",
+  "checked": "2026-11-10",
   "cost_note": "Alaska $956 + $122 companion",
   "cost_two": 1078,
   "grid": {
@@ -62,10 +62,6 @@
   "latest": {
    "alaska": 956,
    "google_history": [
-    [
-     1789023600,
-     362
-    ],
     [
      1789110000,
      406
@@ -304,21 +300,25 @@
     ],
     [
      1794211200,
-     515
+     400
+    ],
+    [
+     1794297600,
+     444
     ]
    ],
    "level": "high",
-   "low": 515,
+   "low": 444,
    "n_options": 17,
    "options": [
     {
-     "airline": "United",
+     "airline": "Frontier",
      "alaska": false,
-     "arrive": "2026-11-25 16:26",
-     "depart": "2026-11-25 12:45",
-     "flight": "UA 1534",
-     "minutes": 161,
-     "price": 515,
+     "arrive": "2026-11-25 20:25",
+     "depart": "2026-11-25 16:37",
+     "flight": "F9 1916",
+     "minutes": 168,
+     "price": 444,
      "stops": 0
     },
     {
@@ -334,9 +334,9 @@
     {
      "airline": "United",
      "alaska": false,
-     "arrive": "2026-11-25 22:45",
-     "depart": "2026-11-25 19:04",
-     "flight": "UA 1218",
+     "arrive": "2026-11-25 16:26",
+     "depart": "2026-11-25 12:45",
+     "flight": "UA 1534",
      "minutes": 161,
      "price": 516,
      "stops": 0
@@ -348,17 +348,17 @@
      "depart": "2026-11-25 15:49",
      "flight": "UA 725",
      "minutes": 161,
-     "price": 544,
+     "price": 533,
      "stops": 0
     },
     {
-     "airline": "Delta",
+     "airline": "United",
      "alaska": false,
-     "arrive": "2026-11-25 17:37",
-     "depart": "2026-11-25 13:52",
-     "flight": "DL 2759",
-     "minutes": 165,
-     "price": 578,
+     "arrive": "2026-11-25 22:45",
+     "depart": "2026-11-25 19:04",
+     "flight": "UA 1218",
+     "minutes": 161,
+     "price": 566,
      "stops": 0
     },
     {
@@ -671,6 +671,13 @@
     "date": "2026-11-09",
     "level": "high",
     "low": 515,
+    "tracked": 956
+   },
+   {
+    "alaska": 956,
+    "date": "2026-11-10",
+    "level": "high",
+    "low": 444,
     "tracked": 956
    }
   ],
