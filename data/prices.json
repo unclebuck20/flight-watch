@@ -1,7 +1,7 @@
 {
  "sea-den-2026-11-25": {
   "basis": "Alaska",
-  "checked": "2026-11-11",
+  "checked": "2026-11-12",
   "cost_note": "Alaska $912 + $122 companion",
   "cost_two": 1034,
   "grid": {
@@ -62,10 +62,6 @@
   "latest": {
    "alaska": 912,
    "google_history": [
-    [
-     1789196400,
-     428
-    ],
     [
      1789282800,
      432
@@ -304,11 +300,15 @@
     ],
     [
      1794384000,
-     505
+     395
+    ],
+    [
+     1794470400,
+     537
     ]
    ],
    "level": "high",
-   "low": 505,
+   "low": 537,
    "n_options": 17,
    "options": [
     {
@@ -318,7 +318,7 @@
      "depart": "2026-11-25 12:45",
      "flight": "UA 1534",
      "minutes": 161,
-     "price": 505,
+     "price": 537,
      "stops": 0
     },
     {
@@ -328,27 +328,7 @@
      "depart": "2026-11-25 15:49",
      "flight": "UA 725",
      "minutes": 161,
-     "price": 539,
-     "stops": 0
-    },
-    {
-     "airline": "United",
-     "alaska": false,
-     "arrive": "2026-11-25 08:42",
-     "depart": "2026-11-25 05:05",
-     "flight": "UA 757",
-     "minutes": 157,
-     "price": 544,
-     "stops": 0
-    },
-    {
-     "airline": "United",
-     "alaska": false,
-     "arrive": "2026-11-25 12:14",
-     "depart": "2026-11-25 08:30",
-     "flight": "UA 1505",
-     "minutes": 164,
-     "price": 549,
+     "price": 548,
      "stops": 0
     },
     {
@@ -358,22 +338,42 @@
      "depart": "2026-11-25 19:04",
      "flight": "UA 1218",
      "minutes": 161,
-     "price": 549,
+     "price": 548,
      "stops": 0
     },
     {
-     "airline": "Delta",
+     "airline": "Southwest",
      "alaska": false,
-     "arrive": "2026-11-25 23:47",
-     "depart": "2026-11-25 19:59",
-     "flight": "DL 2851",
+     "arrive": "2026-11-25 08:50",
+     "depart": "2026-11-25 05:15",
+     "flight": "WN 4956",
+     "minutes": 155,
+     "price": 665,
+     "stops": 0
+    },
+    {
+     "airline": "Southwest",
+     "alaska": false,
+     "arrive": "2026-11-25 17:55",
+     "depart": "2026-11-25 14:30",
+     "flight": "WN 3823",
+     "minutes": 145,
+     "price": 685,
+     "stops": 0
+    },
+    {
+     "airline": "Frontier",
+     "alaska": false,
+     "arrive": "2026-11-25 20:25",
+     "depart": "2026-11-25 16:37",
+     "flight": "F9 1916",
      "minutes": 168,
-     "price": 588,
+     "price": 699,
      "stops": 0
     }
    ],
    "typical": [
-    170,
+    175,
     360
    ],
    "url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhogEgoyMDI2LTExLTI1KABqBwgBEgNTRUFyBwgBEgNERU4aIBIKMjAyNi0xMS0yOSgAagcIARIDREVOcgcIARIDU0VBQAFIAXABmAEB&tfu=EgIIAQ"
@@ -686,9 +686,16 @@
     "level": "high",
     "low": 505,
     "tracked": 912
+   },
+   {
+    "alaska": 912,
+    "date": "2026-11-12",
+    "level": "high",
+    "low": 537,
+    "tracked": 912
    }
   ],
-  "reason": "14 days out; fares rarely drop from here.",
+  "reason": "13 days out; fares rarely drop from here.",
   "verdict": "BUY"
  }
 }
