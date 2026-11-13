@@ -1,29 +1,25 @@
 {
  "meta": {
-  "built": "2026-11-12T21:29+00:00",
+  "built": "2026-11-13T20:55+00:00",
   "companion_cost": 122,
-  "searches_left": 225,
-  "today": "2026-11-12"
+  "searches_left": 224,
+  "today": "2026-11-13"
  },
  "trips": [
   {
    "active": true,
-   "alaska": 912,
+   "alaska": 907,
    "basis": "Alaska",
    "book_by": "2026-10-10",
-   "checked": "2026-11-12",
+   "checked": "2026-11-13",
    "companion": true,
-   "cost_note": "Alaska $912 + $122 companion",
-   "cost_two": 1034,
-   "days_to_deadline": -33,
-   "days_to_depart": 13,
+   "cost_note": "Alaska $907 + $122 companion",
+   "cost_two": 1029,
+   "days_to_deadline": -34,
+   "days_to_depart": 12,
    "depart": "2026-11-25",
    "from": "SEA",
    "google_history": [
-    [
-     "2026-09-13",
-     432
-    ],
     [
      "2026-09-14",
      367
@@ -262,7 +258,11 @@
     ],
     [
      "2026-11-12",
-     537
+     513
+    ],
+    [
+     "2026-11-13",
+     523
     ]
    ],
    "grid": {
@@ -499,11 +499,15 @@
     [
      "2026-11-12",
      912
+    ],
+    [
+     "2026-11-13",
+     907
     ]
    ],
    "id": "sea-den-2026-11-25",
    "level": "high",
-   "low": 537,
+   "low": 523,
    "name": "Thanksgiving",
    "nonstop": true,
    "options": [
@@ -514,7 +518,17 @@
      "depart": "2026-11-25 12:45",
      "flight": "UA 1534",
      "minutes": 161,
-     "price": 537,
+     "price": 523,
+     "stops": 0
+    },
+    {
+     "airline": "United",
+     "alaska": false,
+     "arrive": "2026-11-25 12:14",
+     "depart": "2026-11-25 08:30",
+     "flight": "UA 1505",
+     "minutes": 164,
+     "price": 564,
      "stops": 0
     },
     {
@@ -524,7 +538,7 @@
      "depart": "2026-11-25 15:49",
      "flight": "UA 725",
      "minutes": 161,
-     "price": 548,
+     "price": 564,
      "stops": 0
     },
     {
@@ -534,7 +548,7 @@
      "depart": "2026-11-25 19:04",
      "flight": "UA 1218",
      "minutes": 161,
-     "price": 548,
+     "price": 564,
      "stops": 0
     },
     {
@@ -550,26 +564,16 @@
     {
      "airline": "Southwest",
      "alaska": false,
-     "arrive": "2026-11-25 17:55",
-     "depart": "2026-11-25 14:30",
-     "flight": "WN 3823",
-     "minutes": 145,
+     "arrive": "2026-11-26 00:20",
+     "depart": "2026-11-25 20:40",
+     "flight": "WN 3824",
+     "minutes": 160,
      "price": 685,
-     "stops": 0
-    },
-    {
-     "airline": "Frontier",
-     "alaska": false,
-     "arrive": "2026-11-25 20:25",
-     "depart": "2026-11-25 16:37",
-     "flight": "F9 1916",
-     "minutes": 168,
-     "price": 699,
      "stops": 0
     }
    ],
    "past": false,
-   "reason": "13 days out; fares rarely drop from here.",
+   "reason": "12 days out; fares rarely drop from here.",
    "return": "2026-11-29",
    "to": "DEN",
    "typical": [
