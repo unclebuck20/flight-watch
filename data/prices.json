@@ -1,9 +1,9 @@
 {
  "sea-den-2026-11-25": {
   "basis": "Alaska",
-  "checked": "2026-11-16",
-  "cost_note": "Alaska $555 + $122 companion",
-  "cost_two": 677,
+  "checked": "2026-11-17",
+  "cost_note": "Alaska $560 + $122 companion",
+  "cost_two": 682,
   "grid": {
    "checked": "2026-11-16",
    "rows": [
@@ -60,12 +60,8 @@
   },
   "last_verdict": "BUY",
   "latest": {
-   "alaska": 555,
+   "alaska": 560,
    "google_history": [
-    [
-     1789628400,
-     425
-    ],
     [
      1789714800,
      453
@@ -305,10 +301,14 @@
     [
      1794816000,
      475
+    ],
+    [
+     1794902400,
+     480
     ]
    ],
    "level": "high",
-   "low": 475,
+   "low": 480,
    "n_options": 17,
    "options": [
     {
@@ -318,27 +318,7 @@
      "depart": "2026-11-25 16:37",
      "flight": "F9 1916",
      "minutes": 168,
-     "price": 475,
-     "stops": 0
-    },
-    {
-     "airline": "United",
-     "alaska": false,
-     "arrive": "2026-11-25 19:30",
-     "depart": "2026-11-25 15:49",
-     "flight": "UA 725",
-     "minutes": 161,
-     "price": 549,
-     "stops": 0
-    },
-    {
-     "airline": "United",
-     "alaska": false,
-     "arrive": "2026-11-25 22:45",
-     "depart": "2026-11-25 19:04",
-     "flight": "UA 1218",
-     "minutes": 161,
-     "price": 549,
+     "price": 480,
      "stops": 0
     },
     {
@@ -348,7 +328,17 @@
      "depart": "2026-11-25 05:15",
      "flight": "WN 4956",
      "minutes": 155,
-     "price": 550,
+     "price": 555,
+     "stops": 0
+    },
+    {
+     "airline": "Southwest",
+     "alaska": false,
+     "arrive": "2026-11-26 00:20",
+     "depart": "2026-11-25 20:40",
+     "flight": "WN 3824",
+     "minutes": 160,
+     "price": 555,
      "stops": 0
     },
     {
@@ -358,7 +348,17 @@
      "depart": "2026-11-25 08:30",
      "flight": "DL 1358",
      "minutes": 167,
-     "price": 550,
+     "price": 559,
+     "stops": 0
+    },
+    {
+     "airline": "United",
+     "alaska": false,
+     "arrive": "2026-11-25 19:30",
+     "depart": "2026-11-25 15:49",
+     "flight": "UA 725",
+     "minutes": 161,
+     "price": 559,
      "stops": 0
     },
     {
@@ -368,7 +368,7 @@
      "depart": "2026-11-25 19:59",
      "flight": "DL 2851",
      "minutes": 168,
-     "price": 550,
+     "price": 559,
      "stops": 0
     }
    ],
@@ -721,9 +721,16 @@
     "level": "high",
     "low": 475,
     "tracked": 555
+   },
+   {
+    "alaska": 560,
+    "date": "2026-11-17",
+    "level": "high",
+    "low": 480,
+    "tracked": 560
    }
   ],
-  "reason": "9 days out; fares rarely drop from here.",
+  "reason": "8 days out; fares rarely drop from here.",
   "verdict": "BUY"
  }
 }
