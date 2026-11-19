@@ -1,9 +1,9 @@
 {
  "sea-den-2026-11-25": {
   "basis": "Alaska",
-  "checked": "2026-11-18",
-  "cost_note": "Alaska $550 + $122 companion",
-  "cost_two": 672,
+  "checked": "2026-11-19",
+  "cost_note": "Alaska $767 + $122 companion",
+  "cost_two": 889,
   "grid": {
    "checked": "2026-11-16",
    "rows": [
@@ -60,12 +60,8 @@
   },
   "last_verdict": "BUY",
   "latest": {
-   "alaska": 550,
+   "alaska": 767,
    "google_history": [
-    [
-     1789801200,
-     453
-    ],
     [
      1789887600,
      453
@@ -304,11 +300,15 @@
     ],
     [
      1794988800,
-     475
+     458
+    ],
+    [
+     1795075200,
+     467
     ]
    ],
    "level": "high",
-   "low": 475,
+   "low": 467,
    "n_options": 17,
    "options": [
     {
@@ -318,7 +318,7 @@
      "depart": "2026-11-25 16:37",
      "flight": "F9 1916",
      "minutes": 168,
-     "price": 475,
+     "price": 467,
      "stops": 0
     },
     {
@@ -328,7 +328,37 @@
      "depart": "2026-11-25 08:30",
      "flight": "DL 1358",
      "minutes": 167,
-     "price": 549,
+     "price": 569,
+     "stops": 0
+    },
+    {
+     "airline": "United",
+     "alaska": false,
+     "arrive": "2026-11-25 19:30",
+     "depart": "2026-11-25 15:49",
+     "flight": "UA 725",
+     "minutes": 161,
+     "price": 569,
+     "stops": 0
+    },
+    {
+     "airline": "United",
+     "alaska": false,
+     "arrive": "2026-11-25 16:26",
+     "depart": "2026-11-25 12:45",
+     "flight": "UA 1534",
+     "minutes": 161,
+     "price": 569,
+     "stops": 0
+    },
+    {
+     "airline": "United",
+     "alaska": false,
+     "arrive": "2026-11-25 22:45",
+     "depart": "2026-11-25 19:04",
+     "flight": "UA 1218",
+     "minutes": 161,
+     "price": 569,
      "stops": 0
     },
     {
@@ -338,43 +368,13 @@
      "depart": "2026-11-25 19:59",
      "flight": "DL 2851",
      "minutes": 168,
-     "price": 549,
-     "stops": 0
-    },
-    {
-     "airline": "Southwest",
-     "alaska": false,
-     "arrive": "2026-11-25 08:50",
-     "depart": "2026-11-25 05:15",
-     "flight": "WN 4956",
-     "minutes": 155,
-     "price": 550,
-     "stops": 0
-    },
-    {
-     "airline": "Alaska",
-     "alaska": true,
-     "arrive": "2026-11-25 11:21",
-     "depart": "2026-11-25 07:37",
-     "flight": "AS 682",
-     "minutes": 164,
-     "price": 550,
-     "stops": 0
-    },
-    {
-     "airline": "Alaska",
-     "alaska": true,
-     "arrive": "2026-11-25 23:59",
-     "depart": "2026-11-25 20:16",
-     "flight": "AS 440",
-     "minutes": 163,
-     "price": 550,
+     "price": 569,
      "stops": 0
     }
    ],
    "typical": [
     190,
-    375
+    380
    ],
    "url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhogEgoyMDI2LTExLTI1KABqBwgBEgNTRUFyBwgBEgNERU4aIBIKMjAyNi0xMS0yOSgAagcIARIDREVOcgcIARIDU0VBQAFIAXABmAEB&tfu=EgIIAQ"
   },
@@ -735,9 +735,16 @@
     "level": "high",
     "low": 475,
     "tracked": 550
+   },
+   {
+    "alaska": 767,
+    "date": "2026-11-19",
+    "level": "high",
+    "low": 467,
+    "tracked": 767
    }
   ],
-  "reason": "7 days out; fares rarely drop from here.",
+  "reason": "6 days out; fares rarely drop from here.",
   "verdict": "BUY"
  }
 }
