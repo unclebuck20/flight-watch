@@ -1,29 +1,25 @@
 {
  "meta": {
-  "built": "2026-11-20T21:51+00:00",
+  "built": "2026-11-21T20:34+00:00",
   "companion_cost": 122,
-  "searches_left": 211,
-  "today": "2026-11-20"
+  "searches_left": 210,
+  "today": "2026-11-21"
  },
  "trips": [
   {
    "active": true,
-   "alaska": 767,
+   "alaska": 570,
    "basis": "Alaska",
    "book_by": "2026-10-10",
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "companion": true,
-   "cost_note": "Alaska $767 + $122 companion",
-   "cost_two": 889,
-   "days_to_deadline": -41,
-   "days_to_depart": 5,
+   "cost_note": "Alaska $570 + $122 companion",
+   "cost_two": 692,
+   "days_to_deadline": -42,
+   "days_to_depart": 4,
    "depart": "2026-11-25",
    "from": "SEA",
    "google_history": [
-    [
-     "2026-09-21",
-     480
-    ],
     [
      "2026-09-22",
      453
@@ -263,6 +259,10 @@
     [
      "2026-11-20",
      467
+    ],
+    [
+     "2026-11-21",
+     484
     ]
    ],
    "grid": {
@@ -531,11 +531,15 @@
     [
      "2026-11-20",
      767
+    ],
+    [
+     "2026-11-21",
+     570
     ]
    ],
    "id": "sea-den-2026-11-25",
    "level": "high",
-   "low": 467,
+   "low": 484,
    "name": "Thanksgiving",
    "nonstop": true,
    "options": [
@@ -546,7 +550,17 @@
      "depart": "2026-11-25 16:37",
      "flight": "F9 1916",
      "minutes": 168,
-     "price": 467,
+     "price": 484,
+     "stops": 0
+    },
+    {
+     "airline": "Delta",
+     "alaska": false,
+     "arrive": "2026-11-25 12:17",
+     "depart": "2026-11-25 08:30",
+     "flight": "DL 1358",
+     "minutes": 167,
+     "price": 569,
      "stops": 0
     },
     {
@@ -580,28 +594,18 @@
      "stops": 0
     },
     {
-     "airline": "United",
-     "alaska": false,
-     "arrive": "2026-11-25 08:42",
-     "depart": "2026-11-25 05:05",
-     "flight": "UA 757",
-     "minutes": 157,
-     "price": 613,
-     "stops": 0
-    },
-    {
      "airline": "Delta",
      "alaska": false,
-     "arrive": "2026-11-25 12:17",
-     "depart": "2026-11-25 08:30",
-     "flight": "DL 1358",
-     "minutes": 167,
-     "price": 667,
+     "arrive": "2026-11-25 23:47",
+     "depart": "2026-11-25 19:59",
+     "flight": "DL 2851",
+     "minutes": 168,
+     "price": 569,
      "stops": 0
     }
    ],
    "past": false,
-   "reason": "5 days out; fares rarely drop from here.",
+   "reason": "4 days out; fares rarely drop from here.",
    "return": "2026-11-29",
    "to": "DEN",
    "typical": [
