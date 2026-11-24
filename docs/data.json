@@ -1,9 +1,9 @@
 {
  "meta": {
-  "built": "2026-11-24T01:43+00:00",
+  "built": "2026-11-24T23:30+00:00",
   "companion_cost": 122,
-  "searches_left": 208,
-  "today": "2026-11-23"
+  "searches_left": 206,
+  "today": "2026-11-24"
  },
  "trips": [
   {
@@ -11,19 +11,15 @@
    "alaska": 767,
    "basis": "Alaska",
    "book_by": "2026-10-10",
-   "checked": "2026-11-23",
+   "checked": "2026-11-24",
    "companion": true,
    "cost_note": "Alaska $767 + $122 companion",
    "cost_two": 889,
-   "days_to_deadline": -44,
-   "days_to_depart": 2,
+   "days_to_deadline": -45,
+   "days_to_depart": 1,
    "depart": "2026-11-25",
    "from": "SEA",
    "google_history": [
-    [
-     "2026-09-24",
-     348
-    ],
     [
      "2026-09-25",
      374
@@ -262,7 +258,11 @@
     ],
     [
      "2026-11-23",
-     447
+     418
+    ],
+    [
+     "2026-11-24",
+     467
     ]
    ],
    "grid": {
@@ -543,11 +543,15 @@
     [
      "2026-11-23",
      767
+    ],
+    [
+     "2026-11-24",
+     767
     ]
    ],
    "id": "sea-den-2026-11-25",
    "level": "high",
-   "low": 447,
+   "low": 467,
    "name": "Thanksgiving",
    "nonstop": true,
    "options": [
@@ -558,17 +562,7 @@
      "depart": "2026-11-25 16:37",
      "flight": "F9 1916",
      "minutes": 168,
-     "price": 447,
-     "stops": 0
-    },
-    {
-     "airline": "United",
-     "alaska": false,
-     "arrive": "2026-11-25 08:42",
-     "depart": "2026-11-25 05:05",
-     "flight": "UA 757",
-     "minutes": 157,
-     "price": 589,
+     "price": 467,
      "stops": 0
     },
     {
@@ -610,10 +604,20 @@
      "minutes": 161,
      "price": 589,
      "stops": 0
+    },
+    {
+     "airline": "United",
+     "alaska": false,
+     "arrive": "2026-11-25 22:45",
+     "depart": "2026-11-25 19:04",
+     "flight": "UA 1218",
+     "minutes": 161,
+     "price": 589,
+     "stops": 0
     }
    ],
    "past": false,
-   "reason": "2 days out; fares rarely drop from here.",
+   "reason": "1 days out; fares rarely drop from here.",
    "return": "2026-11-29",
    "to": "DEN",
    "typical": [
