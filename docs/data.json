@@ -1,29 +1,25 @@
 {
  "meta": {
-  "built": "2026-11-24T23:30+00:00",
+  "built": "2026-11-25T23:08+00:00",
   "companion_cost": 122,
   "searches_left": 206,
-  "today": "2026-11-24"
+  "today": "2026-11-25"
  },
  "trips": [
   {
    "active": true,
-   "alaska": 767,
+   "alaska": 778,
    "basis": "Alaska",
    "book_by": "2026-10-10",
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "companion": true,
-   "cost_note": "Alaska $767 + $122 companion",
-   "cost_two": 889,
-   "days_to_deadline": -45,
-   "days_to_depart": 1,
+   "cost_note": "Alaska $778 + $122 companion",
+   "cost_two": 900,
+   "days_to_deadline": -46,
+   "days_to_depart": 0,
    "depart": "2026-11-25",
    "from": "SEA",
    "google_history": [
-    [
-     "2026-09-25",
-     374
-    ],
     [
      "2026-09-26",
      453
@@ -262,7 +258,11 @@
     ],
     [
      "2026-11-24",
-     467
+     447
+    ],
+    [
+     "2026-11-25",
+     447
     ]
    ],
    "grid": {
@@ -547,11 +547,15 @@
     [
      "2026-11-24",
      767
+    ],
+    [
+     "2026-11-25",
+     778
     ]
    ],
    "id": "sea-den-2026-11-25",
    "level": "high",
-   "low": 467,
+   "low": 447,
    "name": "Thanksgiving",
    "nonstop": true,
    "options": [
@@ -562,47 +566,7 @@
      "depart": "2026-11-25 16:37",
      "flight": "F9 1916",
      "minutes": 168,
-     "price": 467,
-     "stops": 0
-    },
-    {
-     "airline": "Delta",
-     "alaska": false,
-     "arrive": "2026-11-25 12:17",
-     "depart": "2026-11-25 08:30",
-     "flight": "DL 1358",
-     "minutes": 167,
-     "price": 589,
-     "stops": 0
-    },
-    {
-     "airline": "United",
-     "alaska": false,
-     "arrive": "2026-11-25 16:26",
-     "depart": "2026-11-25 12:45",
-     "flight": "UA 1534",
-     "minutes": 161,
-     "price": 589,
-     "stops": 0
-    },
-    {
-     "airline": "Delta",
-     "alaska": false,
-     "arrive": "2026-11-25 17:37",
-     "depart": "2026-11-25 13:52",
-     "flight": "DL 2759",
-     "minutes": 165,
-     "price": 589,
-     "stops": 0
-    },
-    {
-     "airline": "United",
-     "alaska": false,
-     "arrive": "2026-11-25 19:30",
-     "depart": "2026-11-25 15:49",
-     "flight": "UA 725",
-     "minutes": 161,
-     "price": 589,
+     "price": 447,
      "stops": 0
     },
     {
@@ -614,10 +578,50 @@
      "minutes": 161,
      "price": 589,
      "stops": 0
+    },
+    {
+     "airline": "Delta",
+     "alaska": false,
+     "arrive": "2026-11-25 23:47",
+     "depart": "2026-11-25 19:59",
+     "flight": "DL 2851",
+     "minutes": 168,
+     "price": 649,
+     "stops": 0
+    },
+    {
+     "airline": "Southwest",
+     "alaska": false,
+     "arrive": "2026-11-26 00:20",
+     "depart": "2026-11-25 20:40",
+     "flight": "WN 3824",
+     "minutes": 160,
+     "price": 738,
+     "stops": 0
+    },
+    {
+     "airline": "United",
+     "alaska": false,
+     "arrive": "2026-11-25 19:30",
+     "depart": "2026-11-25 15:49",
+     "flight": "UA 725",
+     "minutes": 161,
+     "price": 749,
+     "stops": 0
+    },
+    {
+     "airline": "Alaska",
+     "alaska": true,
+     "arrive": "2026-11-25 23:59",
+     "depart": "2026-11-25 20:16",
+     "flight": "AS 440",
+     "minutes": 163,
+     "price": 778,
+     "stops": 0
     }
    ],
    "past": false,
-   "reason": "1 days out; fares rarely drop from here.",
+   "reason": "0 days out; fares rarely drop from here.",
    "return": "2026-11-29",
    "to": "DEN",
    "typical": [
