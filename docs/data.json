@@ -1,9 +1,9 @@
 {
  "meta": {
-  "built": "2026-11-25T23:08+00:00",
+  "built": "2026-11-26T23:03+00:00",
   "companion_cost": 122,
-  "searches_left": 206,
-  "today": "2026-11-25"
+  "searches_left": 205,
+  "today": "2026-11-26"
  },
  "trips": [
   {
@@ -15,8 +15,8 @@
    "companion": true,
    "cost_note": "Alaska $778 + $122 companion",
    "cost_two": 900,
-   "days_to_deadline": -46,
-   "days_to_depart": 0,
+   "days_to_deadline": -47,
+   "days_to_depart": -1,
    "depart": "2026-11-25",
    "from": "SEA",
    "google_history": [
@@ -620,7 +620,7 @@
      "stops": 0
     }
    ],
-   "past": false,
+   "past": true,
    "reason": "0 days out; fares rarely drop from here.",
    "return": "2026-11-29",
    "to": "DEN",
