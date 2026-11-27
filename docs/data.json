@@ -1,9 +1,9 @@
 {
  "meta": {
-  "built": "2026-11-26T23:03+00:00",
+  "built": "2026-11-27T22:44+00:00",
   "companion_cost": 122,
   "searches_left": 205,
-  "today": "2026-11-26"
+  "today": "2026-11-27"
  },
  "trips": [
   {
@@ -15,8 +15,8 @@
    "companion": true,
    "cost_note": "Alaska $778 + $122 companion",
    "cost_two": 900,
-   "days_to_deadline": -47,
-   "days_to_depart": -1,
+   "days_to_deadline": -48,
+   "days_to_depart": -2,
    "depart": "2026-11-25",
    "from": "SEA",
    "google_history": [
